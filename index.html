@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Qurishi Wallpapers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #111;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      font-size: 28px;
+      font-weight: bold;
+      color: #ffcc00;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .item {
+      background: #222;
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .item:hover {
+      transform: scale(1.05);
+    }
+
+    .item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .whatsapp {
+      display: block;
+      text-align: center;
+      background: #25D366;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .fullscreen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.95);
+      display: none;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .fullscreen img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>Qurishi Wallpapers</header>
+
+<div class="gallery" id="gallery"></div>
+
+<div class="fullscreen" id="fullscreen" onclick="this.style.display='none'">
+  <img id="fullImg">
+</div>
+
+<script>
+const folderId = "1I5QlQcZujn5Y4IxJl_7bvZpexbSbBVQN";
+const whatsappNumber = "93782008590";
+
+const images = [
+  "https://drive.google.com/thumbnail?id=1I5QlQcZujn5Y4IxJl_7bvZpexbSbBVQN&sz=w1000"
+];
+
+// Demo loader (later we upgrade to full API)
+const gallery = document.getElementById("gallery");
+
+function openFull(src){
+  document.getElementById("fullscreen").style.display = "flex";
+  document.getElementById("fullImg").src = src;
+}
+
+function loadImages(){
+  images.forEach(img => {
+    let div = document.createElement("div");
+    div.className = "item";
+
+    div.innerHTML = `
+      <img src="${img}" onclick="openFull('${img}')">
+      <a class="whatsapp" href="https://wa.me/${whatsappNumber}?text=سلام، دا ډیزاین مې خوښ شوی" target="_blank">
+        Order on WhatsApp
+      </a>
+    `;
+
+    gallery.appendChild(div);
+  });
+}
+
+loadImages();
+</script>
+
+</body>
+</html>
