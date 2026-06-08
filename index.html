@@ -13,29 +13,25 @@ body {
   color: white;
 }
 
-/* HEADER */
 header {
   text-align: center;
   padding: 20px;
   background: #000;
+  color: #ffcc00;
   font-size: 26px;
   font-weight: bold;
-  color: #ffcc00;
-  letter-spacing: 1px;
 }
 
-/* SEARCH */
 #search {
   width: 90%;
-  margin: 10px auto;
   display: block;
+  margin: 10px auto;
   padding: 10px;
   border-radius: 8px;
   border: none;
   outline: none;
 }
 
-/* GALLERY */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -50,10 +46,6 @@ header {
   transition: 0.3s;
 }
 
-.item:hover {
-  transform: scale(1.04);
-}
-
 .item img {
   width: 100%;
   height: 200px;
@@ -61,7 +53,10 @@ header {
   cursor: pointer;
 }
 
-/* WHATSAPP BUTTON */
+.item:hover {
+  transform: scale(1.04);
+}
+
 .whatsapp {
   display: block;
   text-align: center;
@@ -98,9 +93,7 @@ header {
   right: 20px;
   font-size: 30px;
   cursor: pointer;
-  color: white;
 }
-
 </style>
 </head>
 
@@ -118,20 +111,23 @@ header {
 </div>
 
 <script>
-const whatsappNumber = "93782008590"; // خپل نمبر
+const whatsappNumber = "93782008590";
 
 let data = [];
 const gallery = document.getElementById("gallery");
 
-/* 🔥 LOAD JSON */
-fetch("data.json")
+/* 🔥 IMPORTANT FIX: ./ added */
+fetch("./data.json")
 .then(res => res.json())
 .then(json => {
   data = json;
   render(data);
+})
+.catch(err => {
+  console.log("JSON ERROR:", err);
 });
 
-/* 🖼️ RENDER GALLERY */
+/* 🖼️ RENDER */
 function render(items){
   gallery.innerHTML = "";
 
@@ -140,7 +136,7 @@ function render(items){
     div.className = "item";
 
     div.innerHTML = `
-      <img src="${item.image}" onclick="openFull('${item.image}', '${item.id}')">
+      <img src="${item.image}" onclick="openFull('${item.image}')">
       <a class="whatsapp" target="_blank"
         href="https://wa.me/${whatsappNumber}?text=سلام، زه د Wallpaper ${item.id} په اړه معلومات غواړم">
         📲 Order on WhatsApp
@@ -159,7 +155,7 @@ document.getElementById("search").addEventListener("input", function(){
 });
 
 /* 🖥️ FULLSCREEN */
-function openFull(img, id){
+function openFull(img){
   document.getElementById("fullscreen").style.display = "flex";
   document.getElementById("fullImg").src = img;
 }
@@ -167,7 +163,6 @@ function openFull(img, id){
 function closeFull(){
   document.getElementById("fullscreen").style.display = "none";
 }
-
 </script>
 
 </body>
