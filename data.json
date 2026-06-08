@@ -1,14 +1,20 @@
 [
   {
     "id": "001",
-    "image": "images/001.jpg"
+    "title": "Golden Wall Design",
+    "category": "wall",
+    "image": "images/wall/001.jpg"
   },
   {
     "id": "002",
-    "image": "images/002.jpg"
+    "title": "Luxury Ceiling",
+    "category": "ceiling",
+    "image": "images/ceiling/002.jpg"
   },
   {
     "id": "003",
-    "image": "images/003.jpg"
+    "title": "Modern Flat",
+    "category": "flat",
+    "image": "images/flat/003.jpg"
   }
 ]
