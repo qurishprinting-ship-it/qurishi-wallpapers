@@ -1,79 +1,164 @@
-```yaml
-name: Auto Update Gallery
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-on:
-  push:
-    paths:
-      - "images/**"
+  <!-- ======= SEO ======= -->
+  <title>Qurishi Premium Wallpapers</title>
+  <meta name="description" content="Qurishi Premium Wallpapers — Browse and order luxury wall, ceiling and flat wallpaper designs. Fast delivery across Afghanistan.">
+  <meta name="keywords" content="wallpaper, wall design, ceiling design, flat design, qurishi, premium wallpaper, Afghanistan wallpaper">
+  <meta name="robots" content="index, follow">
 
-permissions:
-  contents: write
+  <!-- ======= Open Graph ======= -->
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="Qurishi Premium Wallpapers">
+  <meta property="og:description" content="Browse luxury wall, ceiling and flat wallpaper designs. Order directly on WhatsApp.">
+  <meta property="og:image"       content="assets/og-image.jpg">
+  <meta property="og:url"         content="https://qurishiprinting.com">
+  <meta property="og:site_name"   content="Qurishi Wallpapers">
 
-jobs:
-  update-json:
-    runs-on: ubuntu-latest
+  <!-- ======= Twitter ======= -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Qurishi Premium Wallpapers">
+  <meta name="twitter:description" content="Browse luxury wall, ceiling and flat wallpaper designs. Order directly on WhatsApp.">
+  <meta name="twitter:image"       content="assets/og-image.jpg">
 
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+  <!-- ======= Favicon ======= -->
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon"     href="assets/favicon.png">
 
-      - name: Generate data.json
-        run: |
-          python3 << 'EOF'
-          import os
-          import json
+  <!-- ======= Fonts & CSS ======= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
 
-          categories = [
-              ("wall", "images/wall"),
-              ("ceiling", "images/ceiling"),
-              ("flat", "images/flat")
-          ]
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Qurishi Premium Wallpapers",
+    "description": "Premium wall, ceiling and flat wallpaper designs available for order via WhatsApp.",
+    "url": "https://qurishiprinting.com",
+    "telephone": "+93782008590",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+93782008590",
+      "contactType": "customer service",
+      "availableLanguage": ["Pashto", "Dari", "English"]
+    }
+  }
+  </script>
+</head>
 
-          data = []
+<body>
 
-          for category, folder in categories:
+  <!-- ================================================
+       HEADER
+       ================================================ -->
+  <header id="site-header">
 
-              if not os.path.exists(folder):
-                  continue
+    <a href="#" class="logo" aria-label="Qurishi Wallpapers Home">
+      <!-- Replace with your actual logo image; fallback shows text -->
+      <img src="assets/logo.png" alt="Qurishi Logo" onerror="this.style.display='none'">
+      <span class="logo-text">
+        Qurishi
+        <small class="logo-sub">Premium Wallpapers</small>
+      </span>
+    </a>
 
-              files = sorted(
-                  os.listdir(folder),
-                  reverse=True
-              )
+    <div class="lang-wrap">
+      <select id="languageSelect" aria-label="Select Language">
+        <option value="en">🌐 English</option>
+        <option value="ps">🌐 پښتو</option>
+        <option value="fa">🌐 دری</option>
+      </select>
+    </div>
 
-              for file in files:
+  </header>
 
-                  if file.lower().endswith((".jpg",".jpeg",".png",".webp")):
+  <!-- ================================================
+       HERO / SEARCH
+       ================================================ -->
+  <section id="hero">
+    <h1 class="hero-headline">🎨 Qurishi Premium Wallpapers</h1>
+    <p class="hero-sub">Wall · Ceiling · Flat — Order Direct on WhatsApp</p>
 
-                      image_id = os.path.splitext(file)[0]
+    <div class="search-wrap">
+      <!-- Search icon -->
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      <input type="search" id="searchInput" placeholder="Search by ID or title..." autocomplete="off" spellcheck="false">
+    </div>
+  </section>
 
-                      data.append({
-                          "id": image_id,
-                          "title": f"{category.capitalize()} {image_id}",
-                          "category": category,
-                          "image": f"{folder}/{file}"
-                      })
+  <!-- ================================================
+       CATEGORY TABS
+       ================================================ -->
+  <nav id="tabs-bar" role="tablist" aria-label="Wallpaper Categories">
+    <button class="tab active" data-category="all"     role="tab" aria-selected="true">All</button>
+    <button class="tab"        data-category="wall"    role="tab">Wall</button>
+    <button class="tab"        data-category="ceiling" role="tab">Ceiling</button>
+    <button class="tab"        data-category="flat"    role="tab">Flat</button>
+  </nav>
 
-          with open("data.json","w",encoding="utf-8") as f:
-              json.dump(
-                  data,
-                  f,
-                  indent=2,
-                  ensure_ascii=False
-              )
+  <!-- ================================================
+       GALLERY
+       ================================================ -->
+  <main id="gallery-section">
+    <div id="gallery" role="list"></div>
+    <p id="no-results" aria-live="polite"></p>
+  </main>
 
-          EOF
+  <!-- ================================================
+       PAGINATION
+       ================================================ -->
+  <nav id="pagination" aria-label="Gallery Pages">
+    <button id="prevBtn" class="pg-btn" disabled>← Prev</button>
+    <span   id="pageNumber">Page 1 / 1</span>
+    <button id="nextBtn" class="pg-btn" disabled>Next →</button>
+  </nav>
 
-      - name: Commit data.json
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+  <!-- ================================================
+       PREVIEW MODAL
+       ================================================ -->
+  <div id="previewModal" role="dialog" aria-modal="true" aria-label="Wallpaper Preview">
+    <button id="closeModal" aria-label="Close preview">✕</button>
 
-          git add data.json
+    <div class="modal-inner">
+      <div class="modal-img-wrap">
+        <img id="previewImage" src="" alt="Wallpaper Preview" draggable="false">
+      </div>
 
-          git diff --cached --quiet && exit 0
+      <div class="modal-meta">
+        <div id="previewTitle"></div>
+        <div id="previewId"></div>
+      </div>
 
-          git commit -m "Auto update data.json"
+      <a id="whatsappBtn" href="#" target="_blank" rel="noopener">📲 Order on WhatsApp</a>
+    </div>
+  </div>
 
-          git push
-```
+  <!-- ================================================
+       SCROLL TO TOP
+       ================================================ -->
+  <button id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <!-- ================================================
+       FOOTER
+       ================================================ -->
+  <footer>
+    <p>© 2025 <a href="https://qurishiprinting.com" target="_blank" rel="noopener">Qurishi Printing</a> · All rights reserved</p>
+  </footer>
+
+  <!-- ================================================
+       SCRIPTS (order matters)
+       ================================================ -->
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
