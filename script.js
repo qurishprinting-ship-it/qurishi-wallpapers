@@ -146,14 +146,15 @@ function renderGallery() {
     card.className = "card";
     card.style.animationDelay = `${idx * 0.04}s`;
 
-    // Start looking with the first extension (.jpg)
+    // اصلاح شوی ځای: که په json کې د تصویر مسیر موجود وي هماغه لولي
     const initialPath = item.image ? item.image : getImagePath(item, SUPPORTED_EXTS[0]);
 
+    // اصلاح شوی ځای: د ډیټا-ایکسټینشن (data-ext) برخه مو هوښیاره کړه ترڅو د عکس اصلي بڼه مستقیمه وپېژني
     card.innerHTML = `
       <div class="card-img-wrap">
         <img
           data-src="${initialPath}"
-          data-ext="${SUPPORTED_EXTS[0]}"
+          data-ext="${item.image ? item.image.split('.').pop() : SUPPORTED_EXTS[0]}"
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
           alt="${item.title}"
           loading="lazy"
