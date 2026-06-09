@@ -6,10 +6,17 @@ on:
       - "images/**"
       - "index.html"
       - "script.js"
-  workflow_dispatch: # دا اختیار تاسو ته اجازه درکوي چې په لاسي ډول یې هم رن کړئ
+  workflow_dispatch:
+
+# دا برخه به په صف کې د اېکشنونو د بند پاتې کېدو مخنیوی وکړي 👇
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 permissions:
   contents: write
+  pages: write      # د پاڼو د جوړېدو اجازه
+  id-token: write   # د ډیپلوۍ اجازه
 
 jobs:
   update-json:
@@ -46,7 +53,6 @@ jobs:
                   if file.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
                       image_id = os.path.splitext(file)[0]
                       
-                      # دلته موږ د عکس بشپړ او دقیق مسیر (Path) په مستقیم ډول ډیټابیس ته ورکوو
                       data.append({
                           "id": image_id,
                           "title": f"{category.capitalize()} {image_id}",
