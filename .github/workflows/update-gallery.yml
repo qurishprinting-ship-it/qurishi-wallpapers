@@ -1,10 +1,12 @@
-```yaml
 name: Auto Update Gallery
 
 on:
   push:
     paths:
       - "images/**"
+      - "index.html"
+      - "script.js"
+  workflow_dispatch: # دا اختیار تاسو ته اجازه درکوي چې په لاسي ډول یې هم رن کړئ
 
 permissions:
   contents: write
@@ -32,7 +34,6 @@ jobs:
           data = []
 
           for category, folder in categories:
-
               if not os.path.exists(folder):
                   continue
 
@@ -42,11 +43,10 @@ jobs:
               )
 
               for file in files:
-
-                  if file.lower().endswith((".jpg",".jpeg",".png",".webp")):
-
+                  if file.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
                       image_id = os.path.splitext(file)[0]
-
+                      
+                      # دلته موږ د عکس بشپړ او دقیق مسیر (Path) په مستقیم ډول ډیټابیس ته ورکوو
                       data.append({
                           "id": image_id,
                           "title": f"{category.capitalize()} {image_id}",
@@ -54,26 +54,20 @@ jobs:
                           "image": f"{folder}/{file}"
                       })
 
-          with open("data.json","w",encoding="utf-8") as f:
+          with open("data.json", "w", encoding="utf-8") as f:
               json.dump(
                   data,
                   f,
                   indent=2,
                   ensure_ascii=False
               )
-
           EOF
 
       - name: Commit data.json
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-
           git add data.json
-
           git diff --cached --quiet && exit 0
-
-          git commit -m "Auto update data.json"
-
-          git push
-```
+          git commit -m "Automated data.json update [Skip CI]"
+          git push origin main
