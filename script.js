@@ -38,18 +38,28 @@ const scrollTopBtn  = document.getElementById("scrollTop");
 const languageSelect= document.getElementById("languageSelect");
 
 // -----------------------------------------------
-// Helper: Get Correct Image Path
+// Helper: Normalize Categories for Folders & Filtering
 // -----------------------------------------------
-function getImagePath(item) {
-  // د کټګورۍ نوم ټول په کوچنیو تورو بدلوي
-  let cat = item.category.toLowerCase().trim();
+function normalizeCategory(rawCategory) {
+  if (!rawCategory) return "wall";
   
-  // که په data.json کې "celing" لیکل شوی وي، د فولډر لپاره یې "ceiling" ته بدلوي
-  if (cat === "celing") {
-    cat = "ceiling";
+  // توري واړه کوي او اضافي خالي ځایونه له منځه وړي
+  const cat = rawCategory.toLowerCase().trim();
+  
+  // که په هر ډول لیکل شوی وي، د فولډر اصلي نوم ته یې اړوي
+  if (cat === "ceiling" || cat === "celing" || cat === "ceilings") {
+    return "ceiling";
   }
-  
-  return `images/${cat}/${item.id}.jpg`;
+  if (cat === "flat" || cat === "flats") {
+    return "flat";
+  }
+  return "wall"; // که بل هر څه وي د ډیفالټ په توګه وال فولډر ته ځي
+}
+
+// د عکس اوتومات لاره جوړول
+function getImagePath(item) {
+  const safeFolder = normalizeCategory(item.category);
+  return `images/${safeFolder}/${item.id}.jpg`;
 }
 
 // -----------------------------------------------
@@ -104,7 +114,7 @@ function renderGallery() {
     card.className = "card";
     card.style.animationDelay = `${idx * 0.04}s`;
 
-    // په اوتومات ډول د سمې لارې جوړول
+    // په اوتومات ډول د عکس لاره موندل
     const automaticImagePath = getImagePath(item);
     const waURL = buildWhatsAppURL(item.id, item.title, automaticImagePath);
 
@@ -170,11 +180,10 @@ function filterGallery() {
   const q = searchInput.value.trim().toLowerCase();
 
   filteredData = allData.filter(item => {
-    // دلته هم کټګورۍ په کوچنیو تورو مېچ (Match) کوي ترڅو تڼۍ (Tabs) کار وکړي
-    let itemCat = item.category.toLowerCase().trim();
-    if (itemCat === "celing") itemCat = "ceiling";
+    const itemCat = normalizeCategory(item.category);
+    const filterCat = normalizeCategory(currentCategory);
 
-    const catOk = currentCategory === "all" || itemCat === currentCategory.toLowerCase();
+    const catOk = currentCategory === "all" || itemCat === filterCat;
     const qOk   = !q || item.id.toLowerCase().includes(q) || item.title.toLowerCase().includes(q);
     return catOk && qOk;
   });
@@ -258,8 +267,6 @@ searchInput.addEventListener("input", filterGallery);
 // -----------------------------------------------
 // Language Switcher
 // -----------------------------------------------
-languageSelect.value = currentLang;
-
 languageSelect.value = currentLang;
 
 languageSelect.addEventListener("change", () => {
