@@ -38,6 +38,21 @@ const scrollTopBtn  = document.getElementById("scrollTop");
 const languageSelect= document.getElementById("languageSelect");
 
 // -----------------------------------------------
+// Helper: Get Correct Image Path
+// -----------------------------------------------
+function getImagePath(item) {
+  // د کټګورۍ نوم ټول په کوچنیو تورو بدلوي
+  let cat = item.category.toLowerCase().trim();
+  
+  // که په data.json کې "celing" لیکل شوی وي، د فولډر لپاره یې "ceiling" ته بدلوي
+  if (cat === "celing") {
+    cat = "ceiling";
+  }
+  
+  return `images/${cat}/${item.id}.jpg`;
+}
+
+// -----------------------------------------------
 // Skeleton Loader
 // -----------------------------------------------
 function showSkeletons() {
@@ -89,8 +104,8 @@ function renderGallery() {
     card.className = "card";
     card.style.animationDelay = `${idx * 0.04}s`;
 
-    // عکس په اوتومات ډول د کټګورۍ او ای ډي په اساس پیدا کوي
-    const automaticImagePath = `images/${item.category}/${item.id}.jpg`;
+    // په اوتومات ډول د سمې لارې جوړول
+    const automaticImagePath = getImagePath(item);
     const waURL = buildWhatsAppURL(item.id, item.title, automaticImagePath);
 
     card.innerHTML = `
@@ -117,7 +132,6 @@ function renderGallery() {
       </div>
     `;
 
-    // Click on image area → open preview
     card.querySelector(".card-img-wrap").addEventListener("click", () => {
       openPreview(item);
     });
@@ -125,7 +139,6 @@ function renderGallery() {
     gallery.appendChild(card);
   });
 
-  // Trigger lazy loading
   enableLazyLoading();
   updatePagination();
 }
@@ -157,7 +170,11 @@ function filterGallery() {
   const q = searchInput.value.trim().toLowerCase();
 
   filteredData = allData.filter(item => {
-    const catOk = currentCategory === "all" || item.category === currentCategory;
+    // دلته هم کټګورۍ په کوچنیو تورو مېچ (Match) کوي ترڅو تڼۍ (Tabs) کار وکړي
+    let itemCat = item.category.toLowerCase().trim();
+    if (itemCat === "celing") itemCat = "ceiling";
+
+    const catOk = currentCategory === "all" || itemCat === currentCategory.toLowerCase();
     const qOk   = !q || item.id.toLowerCase().includes(q) || item.title.toLowerCase().includes(q);
     return catOk && qOk;
   });
@@ -193,7 +210,7 @@ function scrollToGallery() {
 // Preview Modal
 // -----------------------------------------------
 function openPreview(item) {
-  const automaticImagePath = `images/${item.category}/${item.id}.jpg`;
+  const automaticImagePath = getImagePath(item);
   
   previewImage.src         = automaticImagePath;
   previewTitle.textContent = item.title;
@@ -243,13 +260,15 @@ searchInput.addEventListener("input", filterGallery);
 // -----------------------------------------------
 languageSelect.value = currentLang;
 
+languageSelect.value = currentLang;
+
 languageSelect.addEventListener("change", () => {
   setLang(languageSelect.value);
 });
 
 document.addEventListener("langchange", () => {
   applyTranslations();
-  filterGallery(); // re-render with updated WhatsApp strings
+  filterGallery(); 
 });
 
 function applyTranslations() {
@@ -286,7 +305,6 @@ function updateBrowserTitle() {
   document.title = title;
 }
 
-// Restore category from hash on load
 window.addEventListener("load", () => {
   const hash = location.hash.replace("#", "").trim();
   if (hash) {
@@ -323,7 +341,6 @@ document.addEventListener("keydown", e => {
     if (!res.ok) throw new Error("Failed to load data.json");
     const data = await res.json();
 
-    // Newest first (data.json is sorted newest-first by GitHub Action)
     allData = data;
     filterGallery();
 
