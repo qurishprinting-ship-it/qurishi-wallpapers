@@ -89,12 +89,14 @@ function renderGallery() {
     card.className = "card";
     card.style.animationDelay = `${idx * 0.04}s`;
 
-    const waURL = buildWhatsAppURL(item.id, item.title, item.image);
+    // عکس په اوتومات ډول د کټګورۍ او ای ډي په اساس پیدا کوي
+    const automaticImagePath = `images/${item.category}/${item.id}.jpg`;
+    const waURL = buildWhatsAppURL(item.id, item.title, automaticImagePath);
 
     card.innerHTML = `
       <div class="card-img-wrap">
         <img
-          data-src="${item.image}"
+          data-src="${automaticImagePath}"
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
           alt="${item.title}"
           loading="lazy"
@@ -191,10 +193,12 @@ function scrollToGallery() {
 // Preview Modal
 // -----------------------------------------------
 function openPreview(item) {
-  previewImage.src       = item.image;
+  const automaticImagePath = `images/${item.category}/${item.id}.jpg`;
+  
+  previewImage.src         = automaticImagePath;
   previewTitle.textContent = item.title;
   previewId.textContent    = `ID: ${item.id}`;
-  whatsappBtn.href         = buildWhatsAppURL(item.id, item.title, item.image);
+  whatsappBtn.href         = buildWhatsAppURL(item.id, item.title, automaticImagePath);
   whatsappBtn.textContent  = t("orderWhatsapp");
   previewModal.classList.add("active");
   document.body.style.overflow = "hidden";
