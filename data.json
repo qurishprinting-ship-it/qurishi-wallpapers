@@ -1,9 +1,33 @@
 [
   {
-    "id": "003",
-    "title": "Flat 003",
-    "category": "flat",
-    "image": "images/flat/003.jpg"
+    "id": "101",
+    "title": "Wall 101",
+    "category": "wall",
+    "image": "images/wall/101.jpg"
+  },
+  {
+    "id": "1 (2) copy",
+    "title": "Wall 1 (2) copy",
+    "category": "wall",
+    "image": "images/wall/1 (2) copy.jpg"
+  },
+  {
+    "id": "056",
+    "title": "Wall 056",
+    "category": "wall",
+    "image": "images/wall/056.jpg"
+  },
+  {
+    "id": "002",
+    "title": "Wall 002",
+    "category": "wall",
+    "image": "images/wall/002.jpg"
+  },
+  {
+    "id": "001",
+    "title": "Wall 001",
+    "category": "wall",
+    "image": "images/wall/001.jpg"
   },
   {
     "id": "002",
@@ -12,15 +36,15 @@
     "image": "images/ceiling/002.jpg"
   },
   {
-    "id": "001",
-    "title": "Wall 001",
-    "category": "wall",
-    "image": "images/wall/001.jpg"
-  }
-   {
-    "id": "002",
-    "title": "Wall 001",
-    "category": "wall",
-    "image": "images/wall/001.jpg"
+    "id": "549",
+    "title": "Flat 549",
+    "category": "flat",
+    "image": "images/flat/549.jpg"
+  },
+  {
+    "id": "1",
+    "title": "Flat 1",
+    "category": "flat",
+    "image": "images/flat/1.jpg"
   }
 ]
