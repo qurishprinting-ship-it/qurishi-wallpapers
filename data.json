@@ -17,4 +17,10 @@
     "category": "wall",
     "image": "images/wall/001.jpg"
   }
+   {
+    "id": "002",
+    "title": "Wall 001",
+    "category": "wall",
+    "image": "images/wall/001.jpg"
+  }
 ]
