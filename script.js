@@ -10,7 +10,6 @@
 const ITEMS_PER_PAGE   = 20;
 const WHATSAPP_NUMBER  = "93782008590";
 const SKELETON_COUNT   = 8;
-const SUPPORTED_EXTS   = ['jpg', 'jpeg', 'png', 'webp'];
 
 // -----------------------------------------------
 // State
@@ -40,7 +39,7 @@ const languageSelect= document.getElementById("languageSelect");
 const themeToggle   = document.getElementById("themeToggle");
 
 // -----------------------------------------------
-// Helper: Normalize Categories
+// Helper: Normalize Categories for Folders & Filtering
 // -----------------------------------------------
 function normalizeCategory(rawCategory) {
   if (!rawCategory) return "wall";
@@ -54,10 +53,10 @@ function normalizeCategory(rawCategory) {
   return "wall";
 }
 
-// Generates initial absolute fallback path based on ID and category
-function getImagePath(item, ext = 'jpg') {
+// Automatically builds and maps matching clean paths for arbitrary named filenames
+function getImagePath(item) {
   const safeFolder = normalizeCategory(item.category);
-  return `images/${safeFolder}/${item.id}.${ext}`;
+  return `images/${safeFolder}/${item.id}.jpg`;
 }
 
 // -----------------------------------------------
@@ -97,30 +96,11 @@ function showSkeletons() {
 // -----------------------------------------------
 // Build WhatsApp URL
 // -----------------------------------------------
-function buildWhatsAppURL(id, title, imgPath) {
+function buildWhatsAppURL(id, title, imageRelPath) {
   const base    = window.location.origin + window.location.pathname.replace(/index\.html$/, "");
-  const imageUrl = base + imgPath;
+  const imageUrl = base + imageRelPath;
   const msg      = t("whatsappMsg", id, title, imageUrl);
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
-}
-
-// -----------------------------------------------
-// Handle Image Loading Fallbacks Dynamically
-// -----------------------------------------------
-function handleImageError(img, item) {
-  const currentExt = img.getAttribute('data-ext') || 'jpg';
-  const currentIndex = SUPPORTED_EXTS.indexOf(currentExt);
-  
-  if (currentIndex < SUPPORTED_EXTS.length - 1) {
-    const nextExt = SUPPORTED_EXTS[currentIndex + 1];
-    const nextPath = getImagePath(item, nextExt);
-    img.setAttribute('data-ext', nextExt);
-    img.src = nextPath;
-  } else {
-    // If all extensions fail, show placeholder or hide broken layout
-    img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 24 24' fill='none' stroke='%23444' stroke-width='1'%3E%3Crect width='18' height='18' x='3' y='3' rx='2'/%3E%3Ccircle cx='8.5' cy='8.5' r='1.5'/%3E%3Cpath d='M21 15l-5-5L5 21'/%3E%3C/svg%3E";
-    img.style.objectFit = "center";
-  }
 }
 
 // -----------------------------------------------
@@ -146,15 +126,13 @@ function renderGallery() {
     card.className = "card";
     card.style.animationDelay = `${idx * 0.04}s`;
 
-    // اصلاح شوی ځای: که په json کې د تصویر مسیر موجود وي هماغه لولي
-    const initialPath = item.image ? item.image : getImagePath(item, SUPPORTED_EXTS[0]);
+    const automaticImagePath = getImagePath(item);
+    const waURL = buildWhatsAppURL(item.id, item.title, automaticImagePath);
 
-    // اصلاح شوی ځای: د ډیټا-ایکسټینشن (data-ext) برخه مو هوښیاره کړه ترڅو د عکس اصلي بڼه مستقیمه وپېژني
     card.innerHTML = `
       <div class="card-img-wrap">
         <img
-          data-src="${initialPath}"
-          data-ext="${item.image ? item.image.split('.').pop() : SUPPORTED_EXTS[0]}"
+          data-src="${automaticImagePath}"
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
           alt="${item.title}"
           loading="lazy"
@@ -169,28 +147,14 @@ function renderGallery() {
       <div class="card-body">
         <div class="card-id">ID: ${item.id}</div>
         <div class="card-title">${item.title}</div>
-        <a class="btn-whatsapp" href="#" target="_blank" rel="noopener">
+        <a class="btn-whatsapp" href="${waURL}" target="_blank" rel="noopener">
           ${t("orderWhatsapp")}
         </a>
       </div>
     `;
 
-    const imgElement = card.querySelector('img');
-    const waButton   = card.querySelector('.btn-whatsapp');
-
-    // Sync WhatsApp link dynamically when valid image extension loads successfully
-    imgElement.addEventListener('load', () => {
-      if (imgElement.src.startsWith('data:')) return;
-      waButton.href = buildWhatsAppURL(item.id, item.title, imgElement.getAttribute('src'));
-    });
-
-    // Try next format if file path fails
-    imgElement.addEventListener('error', () => {
-      handleImageError(imgElement, item);
-    });
-
     card.querySelector(".card-img-wrap").addEventListener("click", () => {
-      openPreview(item, imgElement.src);
+      openPreview(item);
     });
 
     gallery.appendChild(card);
@@ -265,15 +229,13 @@ function scrollToGallery() {
 // -----------------------------------------------
 // Preview Modal
 // -----------------------------------------------
-function openPreview(item, verifiedSrc) {
-  previewImage.src         = verifiedSrc;
+function openPreview(item) {
+  const automaticImagePath = getImagePath(item);
+  
+  previewImage.src         = automaticImagePath;
   previewTitle.textContent = item.title;
   previewId.textContent    = `ID: ${item.id}`;
-  
-  // Extract relative path from absolute src
-  const relPath = verifiedSrc.replace(window.location.origin + window.location.pathname.replace(/index\.html$/, ""), "");
-  
-  whatsappBtn.href         = buildWhatsAppURL(item.id, item.title, relPath);
+  whatsappBtn.href         = buildWhatsAppURL(item.id, item.title, automaticImagePath);
   whatsappBtn.textContent  = t("orderWhatsapp");
   previewModal.classList.add("active");
   document.body.style.overflow = "hidden";
