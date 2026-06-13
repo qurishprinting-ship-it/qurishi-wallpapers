@@ -6,19 +6,19 @@
 const TRANSLATIONS = {
 
   ps: {
-    siteTitle:     "قریشي پریمیم وال پیپرز",
+    siteTitle:     "قریشی والپيپر",
     searchPlaceholder: "د وال پیپر نمبر یا نوم ولټوئ...",
     allCategories: "ټول",
     wall:          "دیوال",
     ceiling:       "چت",
-    flat:          "فلیټ",
+    flat:          "تکه یی مسطح",
     orderWhatsapp: "📲 واټساپ امر",
-    prevPage:      "← شا",
+    prevPage:      "←  شا ته",
     nextPage:      "مخ →",
     pageOf:        "مخ",
     of:            "نه",
     noResults:     "هیڅ پایله ونه موندل شوه.",
-    fullscreenAlt: "د وال پیپر لید",
+    fullscreenAlt: "د والپیپر لیدل",
     closePreview:  "وتل",
     previewTitle:  "د ډیزاین معلومات",
     whatsappMsg:   (id, title, url) =>
@@ -28,12 +28,12 @@ const TRANSLATIONS = {
   },
 
   fa: {
-    siteTitle:     "کاغذ دیواری پریمیوم قریشی",
+    siteTitle:     "کاغذ دیواری قریشی",
     searchPlaceholder: "شماره یا عنوان طرح را جستجو کنید...",
     allCategories: "همه",
     wall:          "دیوار",
-    ceiling:       "سقف",
-    flat:          "فلت",
+    ceiling:       "سقف/چت",
+    flat:          "مسطح تکه یی",
     orderWhatsapp: "📲 سفارش واتساپ",
     prevPage:      "← قبلی",
     nextPage:      "بعدی →",
@@ -50,7 +50,7 @@ const TRANSLATIONS = {
   },
 
   en: {
-    siteTitle:     "Qurishi Premium Wallpapers",
+    siteTitle:     "Qurishi 3D Wallpapers",
     searchPlaceholder: "Search by ID or title...",
     allCategories: "All",
     wall:          "Wall",
