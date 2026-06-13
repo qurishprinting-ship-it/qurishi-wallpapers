@@ -372,7 +372,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 
 #gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
@@ -817,7 +817,7 @@ footer a:hover { color: var(--gold-light); }
   #hero        { padding: 52px 20px 44px; }
   #tabs-bar    { padding: 14px 20px; }
   #gallery-section { padding: 24px 16px; }
-  #gallery     { grid-template-columns: repeat(auto-fill, minmax(155px, 1fr)); gap: 14px; }
+  #gallery     { grid-template-columns: repeat(2, 1fr); gap: 14px; }
 
   .card-title  { font-size: 0.82rem; }
   .btn-whatsapp { font-size: 0.76rem; padding: 9px; }
@@ -828,7 +828,7 @@ footer a:hover { color: var(--gold-light); }
 
 @media (max-width: 480px) {
   .hero-headline { font-size: 1.45rem; }
-  #gallery { grid-template-columns: 1fr 1fr; gap: 12px; }
+  #gallery { grid-template-columns: 1fr; gap: 12px; }
 }
 
 /* -----------------------------------------------
