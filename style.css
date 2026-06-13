@@ -407,7 +407,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 .card-img-wrap {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
   cursor: pointer;
   background: var(--bg-surface);
 }
@@ -545,7 +545,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 }
 
 .skeleton-img {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
   background: var(--skeleton-base);
   position: relative;
   overflow: hidden;
