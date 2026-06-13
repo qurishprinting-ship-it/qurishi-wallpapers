@@ -5,6 +5,11 @@
     "category": "Wall"
   },
   {
+    "id": "luxury_ceiling_v2",
+    "title": "Royal Ceiling Ornament",
+    "category": "ceiling"
+  },
+  {
     "id": "001",
     "title": "Minimalist Flat Design",
     "category": "FLAT"
