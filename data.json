@@ -1,1 +1,12 @@
-{ "id": "golden-wall", "title": "Luxury Golden Pattern", "category": "Wall" }
+[
+  {
+    "id": "golden-wall",
+    "title": "Luxury Golden Pattern",
+    "category": "Wall"
+  },
+  {
+    "id": "001",
+    "title": "Minimalist Flat Design",
+    "category": "FLAT"
+  }
+]
