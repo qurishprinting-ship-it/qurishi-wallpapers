@@ -10,7 +10,7 @@
 const ITEMS_PER_PAGE  = 20;
 const WHATSAPP_NUMBER = "93782008590";
 const SKELETON_COUNT  = 8;
-const IMG_EXTENSIONS  = ["jpg", "jpeg", "png", "webp"];
+const IMG_EXTENSIONS  = ["webp", "jpg", "jpeg", "png"];
 
 // -----------------------------------------------
 // State
@@ -165,8 +165,8 @@ function renderGallery() {
     card.setAttribute("role", "listitem");
     card.style.animationDelay = `${idx * 0.04}s`;
 
-    // Start with .jpg; error handler cascades through extensions
-    const initialPath = getImagePath(item, "jpg");
+    // Start with .webp; error handler cascades through extensions
+    const initialPath = getImagePath(item, "webp");
     const waURL       = buildWhatsAppURL(item.id, item.title, initialPath);
 
     // Category badge label
