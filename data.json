@@ -1443,19 +1443,6 @@
     "createdAt": "2026-06-13T16:37:36+04:30"
   },
   {
-    "id": "002",
-    "title": "Ceiling 002",
-    "category": "ceiling",
-    "image": "images/ceiling/002.jpg",
-    "thumbnail": "thumbs/ceiling/002.webp",
-    "width": 1424,
-    "height": 745,
-    "aspectRatio": 1.9114,
-    "fileSize": 1536989,
-    "format": "png",
-    "createdAt": "2026-06-08T14:38:09+04:30"
-  },
-  {
     "id": "8",
     "title": "Flat 8",
     "category": "flat",
