@@ -1,19 +1,5 @@
 [
   {
-    "id": "100",
-    "title": "Ceiling 100",
-    "category": "ceiling",
-    "image": "images/ceiling/100.webp",
-    "thumbnail": "thumbs/ceiling/100.webp",
-    "width": 1512,
-    "height": 1040,
-    "aspectRatio": 1.4538,
-    "fileSize": 150678,
-    "format": "webp",
-    "createdAt": "2026-10-08T09:22:04.508Z",
-    "hash": "98bf4ad3f21248129a5bb2873a1eb40c"
-  },
-  {
     "id": "655",
     "title": "Wall 655",
     "category": "wall",
@@ -1477,7 +1463,7 @@
     "thumbnail": "thumbs/flat/8.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 130083,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -1490,7 +1476,7 @@
     "thumbnail": "thumbs/flat/72.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 106940,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -1503,7 +1489,7 @@
     "thumbnail": "thumbs/flat/7.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 126329,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -1516,7 +1502,7 @@
     "thumbnail": "thumbs/flat/6.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 78450,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -1529,7 +1515,7 @@
     "thumbnail": "thumbs/flat/59.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 101945,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -1542,7 +1528,7 @@
     "thumbnail": "thumbs/flat/5.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 120629,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -1555,7 +1541,7 @@
     "thumbnail": "thumbs/flat/465 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 128426,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1568,7 +1554,7 @@
     "thumbnail": "thumbs/flat/42.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 104738,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -1581,7 +1567,7 @@
     "thumbnail": "thumbs/flat/41.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 117415,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -1594,7 +1580,7 @@
     "thumbnail": "thumbs/flat/38.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 136582,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -1607,7 +1593,7 @@
     "thumbnail": "thumbs/flat/362 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 105050,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1620,7 +1606,7 @@
     "thumbnail": "thumbs/flat/361 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 68350,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1633,7 +1619,7 @@
     "thumbnail": "thumbs/flat/359 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 99955,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1646,7 +1632,7 @@
     "thumbnail": "thumbs/flat/358 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 111361,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1659,7 +1645,7 @@
     "thumbnail": "thumbs/flat/357 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 142579,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1672,7 +1658,7 @@
     "thumbnail": "thumbs/flat/356 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 107564,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1685,7 +1671,7 @@
     "thumbnail": "thumbs/flat/355 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 124819,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1698,7 +1684,7 @@
     "thumbnail": "thumbs/flat/354 1F.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 44184,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1711,7 +1697,7 @@
     "thumbnail": "thumbs/flat/353 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 122408,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1724,7 +1710,7 @@
     "thumbnail": "thumbs/flat/351 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 163608,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1737,7 +1723,7 @@
     "thumbnail": "thumbs/flat/350 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 134569,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1750,7 +1736,7 @@
     "thumbnail": "thumbs/flat/349 1F.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 131649,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1763,7 +1749,7 @@
     "thumbnail": "thumbs/flat/348 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 97512,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1776,7 +1762,7 @@
     "thumbnail": "thumbs/flat/347 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 54078,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1789,7 +1775,7 @@
     "thumbnail": "thumbs/flat/346 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 142154,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1802,7 +1788,7 @@
     "thumbnail": "thumbs/flat/345 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 152867,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1815,7 +1801,7 @@
     "thumbnail": "thumbs/flat/343 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 99700,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1828,7 +1814,7 @@
     "thumbnail": "thumbs/flat/342 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 97591,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1841,7 +1827,7 @@
     "thumbnail": "thumbs/flat/340 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 156763,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1854,7 +1840,7 @@
     "thumbnail": "thumbs/flat/339 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 78706,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1867,7 +1853,7 @@
     "thumbnail": "thumbs/flat/338 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 84704,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1880,7 +1866,7 @@
     "thumbnail": "thumbs/flat/335 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 92969,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1893,7 +1879,7 @@
     "thumbnail": "thumbs/flat/334 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 103783,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1906,7 +1892,7 @@
     "thumbnail": "thumbs/flat/333 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 112285,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1919,7 +1905,7 @@
     "thumbnail": "thumbs/flat/332 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 99138,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1932,7 +1918,7 @@
     "thumbnail": "thumbs/flat/331 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 98253,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1945,7 +1931,7 @@
     "thumbnail": "thumbs/flat/323 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 106405,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1958,7 +1944,7 @@
     "thumbnail": "thumbs/flat/320 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 136247,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1971,7 +1957,7 @@
     "thumbnail": "thumbs/flat/319 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 58817,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1984,7 +1970,7 @@
     "thumbnail": "thumbs/flat/318 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 78983,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -1997,7 +1983,7 @@
     "thumbnail": "thumbs/flat/317 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 64524,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2010,7 +1996,7 @@
     "thumbnail": "thumbs/flat/316 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 115677,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2023,7 +2009,7 @@
     "thumbnail": "thumbs/flat/315 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 162678,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2036,7 +2022,7 @@
     "thumbnail": "thumbs/flat/314 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 134166,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2049,7 +2035,7 @@
     "thumbnail": "thumbs/flat/313 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 146172,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2062,7 +2048,7 @@
     "thumbnail": "thumbs/flat/312 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 143298,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2075,7 +2061,7 @@
     "thumbnail": "thumbs/flat/311 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 123374,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2088,7 +2074,7 @@
     "thumbnail": "thumbs/flat/310 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 152865,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2101,7 +2087,7 @@
     "thumbnail": "thumbs/flat/309 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 135743,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2114,7 +2100,7 @@
     "thumbnail": "thumbs/flat/308 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 86625,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2127,7 +2113,7 @@
     "thumbnail": "thumbs/flat/306 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 106953,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2140,7 +2126,7 @@
     "thumbnail": "thumbs/flat/305 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 87358,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2153,7 +2139,7 @@
     "thumbnail": "thumbs/flat/304 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 123313,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2166,7 +2152,7 @@
     "thumbnail": "thumbs/flat/303 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 73323,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2179,7 +2165,7 @@
     "thumbnail": "thumbs/flat/302 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 71775,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2192,7 +2178,7 @@
     "thumbnail": "thumbs/flat/301 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 69919,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2205,7 +2191,7 @@
     "thumbnail": "thumbs/flat/3.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 123343,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2218,7 +2204,7 @@
     "thumbnail": "thumbs/flat/298.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 41709,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2231,7 +2217,7 @@
     "thumbnail": "thumbs/flat/298 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 113093,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2244,7 +2230,7 @@
     "thumbnail": "thumbs/flat/297 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 107167,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2257,7 +2243,7 @@
     "thumbnail": "thumbs/flat/294 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 128513,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2270,7 +2256,7 @@
     "thumbnail": "thumbs/flat/292.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 38070,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2283,7 +2269,7 @@
     "thumbnail": "thumbs/flat/292 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 127011,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2296,7 +2282,7 @@
     "thumbnail": "thumbs/flat/291 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 118506,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2309,7 +2295,7 @@
     "thumbnail": "thumbs/flat/289 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 100187,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2322,7 +2308,7 @@
     "thumbnail": "thumbs/flat/288 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 73203,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2335,7 +2321,7 @@
     "thumbnail": "thumbs/flat/287 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 27580,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2348,7 +2334,7 @@
     "thumbnail": "thumbs/flat/286 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 133739,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2361,7 +2347,7 @@
     "thumbnail": "thumbs/flat/285 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 94622,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2374,7 +2360,7 @@
     "thumbnail": "thumbs/flat/283 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 115374,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2387,7 +2373,7 @@
     "thumbnail": "thumbs/flat/281 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 138753,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2400,7 +2386,7 @@
     "thumbnail": "thumbs/flat/280 1F.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 95130,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2413,7 +2399,7 @@
     "thumbnail": "thumbs/flat/279 1F.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 104780,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2426,7 +2412,7 @@
     "thumbnail": "thumbs/flat/276 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 144383,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2439,7 +2425,7 @@
     "thumbnail": "thumbs/flat/275 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 125343,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:28:33+04:30"
@@ -2452,7 +2438,7 @@
     "thumbnail": "thumbs/flat/274 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 127387,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2465,7 +2451,7 @@
     "thumbnail": "thumbs/flat/273 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 107941,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2478,7 +2464,7 @@
     "thumbnail": "thumbs/flat/272 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 124085,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2491,7 +2477,7 @@
     "thumbnail": "thumbs/flat/271 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 79157,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2504,7 +2490,7 @@
     "thumbnail": "thumbs/flat/270 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 111273,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2517,7 +2503,7 @@
     "thumbnail": "thumbs/flat/268 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 120488,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2530,7 +2516,7 @@
     "thumbnail": "thumbs/flat/267 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 125113,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2543,7 +2529,7 @@
     "thumbnail": "thumbs/flat/265 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 36118,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2556,7 +2542,7 @@
     "thumbnail": "thumbs/flat/264 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 47892,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2569,7 +2555,7 @@
     "thumbnail": "thumbs/flat/263 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 38395,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2582,7 +2568,7 @@
     "thumbnail": "thumbs/flat/262 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 53267,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2595,7 +2581,7 @@
     "thumbnail": "thumbs/flat/261 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 66629,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2608,7 +2594,7 @@
     "thumbnail": "thumbs/flat/260 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 85432,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2621,7 +2607,7 @@
     "thumbnail": "thumbs/flat/259 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 79006,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2634,7 +2620,7 @@
     "thumbnail": "thumbs/flat/257 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 95916,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2647,7 +2633,7 @@
     "thumbnail": "thumbs/flat/256 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 129845,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2660,7 +2646,7 @@
     "thumbnail": "thumbs/flat/255 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 134611,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2673,7 +2659,7 @@
     "thumbnail": "thumbs/flat/254 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 99298,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2686,7 +2672,7 @@
     "thumbnail": "thumbs/flat/253 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 104424,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2699,7 +2685,7 @@
     "thumbnail": "thumbs/flat/252 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 131829,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2712,7 +2698,7 @@
     "thumbnail": "thumbs/flat/251 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 79849,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2725,7 +2711,7 @@
     "thumbnail": "thumbs/flat/250 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 139502,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2738,7 +2724,7 @@
     "thumbnail": "thumbs/flat/248 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 122662,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2751,7 +2737,7 @@
     "thumbnail": "thumbs/flat/247 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 131962,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2764,7 +2750,7 @@
     "thumbnail": "thumbs/flat/245 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 145947,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2777,7 +2763,7 @@
     "thumbnail": "thumbs/flat/243 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 68972,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2790,7 +2776,7 @@
     "thumbnail": "thumbs/flat/242 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 92285,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2803,7 +2789,7 @@
     "thumbnail": "thumbs/flat/241 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 146160,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2816,7 +2802,7 @@
     "thumbnail": "thumbs/flat/238 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 113749,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2829,7 +2815,7 @@
     "thumbnail": "thumbs/flat/237 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 119477,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2842,7 +2828,7 @@
     "thumbnail": "thumbs/flat/235 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 89835,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2855,7 +2841,7 @@
     "thumbnail": "thumbs/flat/234 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 79705,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2868,7 +2854,7 @@
     "thumbnail": "thumbs/flat/233 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 85184,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2881,7 +2867,7 @@
     "thumbnail": "thumbs/flat/232 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 57160,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2894,7 +2880,7 @@
     "thumbnail": "thumbs/flat/231 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 81574,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2907,7 +2893,7 @@
     "thumbnail": "thumbs/flat/229 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 79787,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2920,7 +2906,7 @@
     "thumbnail": "thumbs/flat/228 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 113596,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2933,7 +2919,7 @@
     "thumbnail": "thumbs/flat/226 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 123465,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2946,7 +2932,7 @@
     "thumbnail": "thumbs/flat/225 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 38367,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2959,7 +2945,7 @@
     "thumbnail": "thumbs/flat/224 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 39136,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2972,7 +2958,7 @@
     "thumbnail": "thumbs/flat/223 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 109755,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2985,7 +2971,7 @@
     "thumbnail": "thumbs/flat/222 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 107393,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -2998,7 +2984,7 @@
     "thumbnail": "thumbs/flat/221 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 150718,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3011,7 +2997,7 @@
     "thumbnail": "thumbs/flat/220 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 105986,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3024,7 +3010,7 @@
     "thumbnail": "thumbs/flat/219 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 104995,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3037,7 +3023,7 @@
     "thumbnail": "thumbs/flat/218 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 109017,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3050,7 +3036,7 @@
     "thumbnail": "thumbs/flat/217 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 91131,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3063,7 +3049,7 @@
     "thumbnail": "thumbs/flat/216 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 85640,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3076,7 +3062,7 @@
     "thumbnail": "thumbs/flat/215 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 89623,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3089,7 +3075,7 @@
     "thumbnail": "thumbs/flat/213 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 93347,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3102,7 +3088,7 @@
     "thumbnail": "thumbs/flat/212 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 138306,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3115,7 +3101,7 @@
     "thumbnail": "thumbs/flat/210 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 117257,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3128,7 +3114,7 @@
     "thumbnail": "thumbs/flat/209 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 86434,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3141,7 +3127,7 @@
     "thumbnail": "thumbs/flat/208 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 93209,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3154,7 +3140,7 @@
     "thumbnail": "thumbs/flat/207 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 132348,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3167,7 +3153,7 @@
     "thumbnail": "thumbs/flat/206 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 90477,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3180,7 +3166,7 @@
     "thumbnail": "thumbs/flat/205 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 84260,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3193,7 +3179,7 @@
     "thumbnail": "thumbs/flat/204 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 118112,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3206,7 +3192,7 @@
     "thumbnail": "thumbs/flat/203 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 114709,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3219,7 +3205,7 @@
     "thumbnail": "thumbs/flat/201 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 128485,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3232,7 +3218,7 @@
     "thumbnail": "thumbs/flat/200 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 41125,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3245,7 +3231,7 @@
     "thumbnail": "thumbs/flat/199 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 127064,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3258,7 +3244,7 @@
     "thumbnail": "thumbs/flat/198 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 109445,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3271,7 +3257,7 @@
     "thumbnail": "thumbs/flat/197 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 108890,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3284,7 +3270,7 @@
     "thumbnail": "thumbs/flat/196 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 119300,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3297,7 +3283,7 @@
     "thumbnail": "thumbs/flat/195 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 132707,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3310,7 +3296,7 @@
     "thumbnail": "thumbs/flat/194 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 73516,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3323,7 +3309,7 @@
     "thumbnail": "thumbs/flat/193 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 87061,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3336,7 +3322,7 @@
     "thumbnail": "thumbs/flat/192 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 103699,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3349,7 +3335,7 @@
     "thumbnail": "thumbs/flat/191 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 101100,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3362,7 +3348,7 @@
     "thumbnail": "thumbs/flat/190 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 121488,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3375,7 +3361,7 @@
     "thumbnail": "thumbs/flat/189 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 102715,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3388,7 +3374,7 @@
     "thumbnail": "thumbs/flat/187 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 78178,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3401,7 +3387,7 @@
     "thumbnail": "thumbs/flat/185 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 117557,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3414,7 +3400,7 @@
     "thumbnail": "thumbs/flat/184 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 113273,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3427,7 +3413,7 @@
     "thumbnail": "thumbs/flat/183 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 81837,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3440,7 +3426,7 @@
     "thumbnail": "thumbs/flat/180 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 45577,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3453,7 +3439,7 @@
     "thumbnail": "thumbs/flat/179 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 96419,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3466,7 +3452,7 @@
     "thumbnail": "thumbs/flat/178 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 105977,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3479,7 +3465,7 @@
     "thumbnail": "thumbs/flat/177 1f.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 129818,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3492,7 +3478,7 @@
     "thumbnail": "thumbs/flat/175.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 39505,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3505,7 +3491,7 @@
     "thumbnail": "thumbs/flat/174.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 114594,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3518,7 +3504,7 @@
     "thumbnail": "thumbs/flat/173.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 92003,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3531,7 +3517,7 @@
     "thumbnail": "thumbs/flat/171.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 92260,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3544,7 +3530,7 @@
     "thumbnail": "thumbs/flat/170.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 129569,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3557,7 +3543,7 @@
     "thumbnail": "thumbs/flat/14.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 116893,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3570,7 +3556,7 @@
     "thumbnail": "thumbs/flat/13.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 127437,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3583,7 +3569,7 @@
     "thumbnail": "thumbs/flat/125.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 145037,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3596,7 +3582,7 @@
     "thumbnail": "thumbs/flat/12.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 131428,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
@@ -3609,7 +3595,7 @@
     "thumbnail": "thumbs/flat/1.webp",
     "width": 400,
     "height": 400,
-    "aspectRatio": 1.0,
+    "aspectRatio": 1,
     "fileSize": 95047,
     "format": "jpeg",
     "createdAt": "2026-06-21T11:22:39+04:30"
