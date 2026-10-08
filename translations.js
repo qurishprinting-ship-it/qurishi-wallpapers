@@ -1,98 +1,92 @@
-// ===================================
 // translations.js — Qurishi Wallpapers
-// Supports: Pashto (ps), Dari (fa), English (en)
-// ===================================
+// Pashto (ps) is the DEFAULT language. Dari (fa) and English (en) are chosen explicitly by the visitor.
+// Every customer-facing string lives here.
+"use strict";
 
 const TRANSLATIONS = {
-
   ps: {
-    siteTitle:     "قریشی والپيپر",
-    searchPlaceholder: "د وال پیپر نمبر یا نوم ولټوئ...",
-    allCategories: "ټول",
-    wall:          "دیوال",
-    ceiling:       "چت",
-    flat:          "تکه یی مسطح",
-    orderWhatsapp: "📲 واټساپ امر",
-    prevPage:      "←  شا ته",
-    nextPage:      "مخ →",
-    pageOf:        "مخ",
-    of:            "نه",
-    noResults:     "هیڅ پایله ونه موندل شوه.",
-    fullscreenAlt: "د والپیپر لیدل",
-    closePreview:  "وتل",
-    previewTitle:  "د ډیزاین معلومات",
-    whatsappMsg:   (id, title, url) =>
-      `السلام علیکم\nزه دغه ډیزاین غواړم.\n\nID: ${id}\nعنوان: ${title}\n\nانځور:\n${url}`,
-    loadingText:   "لوډیږي...",
-    pageLabel:     (cur, total) => `مخ ${cur} / ${total}`,
+    htmlLang: "ps", dir: "rtl",
+    title: "قریشی ۳ډي والپیپر | Qurishi 3D Wallpapers",
+    brand: "قریشی", brandSub: "۳ډي والپیپر", home: "کور",
+    heroTitle: "قریشی ۳ډي والپیپر",
+    tagline: "دیوال · چت · فلیټ — مستقیم په واټساپ کې امر وکړئ",
+    searchPlaceholder: "د ډیزاین شمېره یا نوم ولټوئ…",
+    categories: "کټګورۍ",
+    all: "ټول", wall: "وال", ceiling: "چت", flat: "فلیټ",
+    order: "په واټساپ امر وکړئ",
+    prev: "مخکینی", next: "راتلونکی",
+    pageLabel: (c, t) => `مخ ${c} / ${t}`,
+    noResults: "هیڅ پایله ونه موندل شوه.",
+    loadError: "د ګیلرۍ معلومات نه لوستل کېږي. مهرباني وکړئ وروسته بیا هڅه وکړئ.",
+    preview: "کتنه", previewAlt: (title) => `د والپیپر کتنه: ${title}`, cardAlt: (title, cat) => `${title} — ${cat}`,
+    close: "تړل", theme: "د رنګ حالت بدلول", language: "ژبه", scrollTop: "پورته",
+    skip: "اصلي منځپانګې ته تلل", idLabel: "شمېره",
+    rights: "© 2026 قریشی چاپ · ټول حقوق خوندي دي",
+    whatsappMsg: (id, title, url) => `السلام علیکم\nزه دغه ډیزاین غواړم.\n\nID: ${id}\nعنوان: ${title}\n\nانځور:\n${url}`,
   },
-
   fa: {
-    siteTitle:     "کاغذ دیواری قریشی",
-    searchPlaceholder: "شماره یا عنوان طرح را جستجو کنید...",
-    allCategories: "همه",
-    wall:          "دیوار",
-    ceiling:       "سقف/چت",
-    flat:          "مسطح تکه یی",
-    orderWhatsapp: "📲 سفارش واتساپ",
-    prevPage:      "← قبلی",
-    nextPage:      "بعدی →",
-    pageOf:        "صفحه",
-    of:            "از",
-    noResults:     "هیچ نتیجه‌ای یافت نشد.",
-    fullscreenAlt: "پیش‌نمایش کاغذ دیواری",
-    closePreview:  "بستن",
-    previewTitle:  "اطلاعات طرح",
-    whatsappMsg:   (id, title, url) =>
-      `السلام علیکم\nمن این طرح را می‌خواهم.\n\nID: ${id}\nعنوان: ${title}\n\nتصویر:\n${url}`,
-    loadingText:   "در حال بارگذاری...",
-    pageLabel:     (cur, total) => `صفحه ${cur} / ${total}`,
+    htmlLang: "fa-AF", dir: "rtl",
+    title: "کاغذ دیواری قریشی | Qurishi 3D Wallpapers",
+    brand: "قریشی", brandSub: "والپیپر سه‌بعدی", home: "صفحه اصلی",
+    heroTitle: "کاغذ دیواری سه‌بعدی قریشی",
+    tagline: "دیوار · سقف · فلت — سفارش مستقیم از طریق واتساپ",
+    searchPlaceholder: "شماره یا نام طرح را جستجو کنید…",
+    categories: "دسته‌بندی‌ها",
+    all: "همه", wall: "دیوار", ceiling: "سقف", flat: "فلت",
+    order: "سفارش از طریق واتساپ",
+    prev: "قبلی", next: "بعدی",
+    pageLabel: (c, t) => `صفحه ${c} / ${t}`,
+    noResults: "نتیجه‌ای یافت نشد.",
+    loadError: "بارگذاری گالری ممکن نشد. لطفاً بعداً دوباره تلاش کنید.",
+    preview: "پیش‌نمایش", previewAlt: (title) => `پیش‌نمایش کاغذ دیواری: ${title}`, cardAlt: (title, cat) => `${title} — ${cat}`,
+    close: "بستن", theme: "تغییر حالت روشن/تاریک", language: "زبان", scrollTop: "بالا",
+    skip: "رفتن به محتوای اصلی", idLabel: "شماره",
+    rights: "© 2026 چاپ قریشی · تمام حقوق محفوظ است",
+    whatsappMsg: (id, title, url) => `السلام علیکم\nمن این طرح را می‌خواهم.\n\nID: ${id}\nعنوان: ${title}\n\nتصویر:\n${url}`,
   },
-
   en: {
-    siteTitle:     "Qurishi 3D Wallpapers",
-    searchPlaceholder: "Search by ID or title...",
-    allCategories: "All",
-    wall:          "Wall",
-    ceiling:       "Ceiling",
-    flat:          "Flat",
-    orderWhatsapp: "📲 Order on WhatsApp",
-    prevPage:      "← Prev",
-    nextPage:      "Next →",
-    pageOf:        "Page",
-    of:            "of",
-    noResults:     "No results found.",
-    fullscreenAlt: "Wallpaper preview",
-    closePreview:  "Close",
-    previewTitle:  "Design Details",
-    whatsappMsg:   (id, title, url) =>
-      `السلام علیکم\nI want this wallpaper.\n\nID: ${id}\nTitle: ${title}\n\nImage:\n${url}`,
-    loadingText:   "Loading...",
-    pageLabel:     (cur, total) => `Page ${cur} / ${total}`,
-  }
-
+    htmlLang: "en", dir: "ltr",
+    title: "Qurishi 3D Wallpapers",
+    brand: "Qurishi", brandSub: "3D Wallpapers", home: "Home",
+    heroTitle: "Qurishi 3D Wallpapers",
+    tagline: "Wall · Ceiling · Flat — Order direct on WhatsApp",
+    searchPlaceholder: "Search by ID or title…",
+    categories: "Categories",
+    all: "All", wall: "Wall", ceiling: "Ceiling", flat: "Flat",
+    order: "Order on WhatsApp",
+    prev: "Previous", next: "Next",
+    pageLabel: (c, t) => `Page ${c} / ${t}`,
+    noResults: "No results found.",
+    loadError: "Could not load the gallery. Please try again later.",
+    preview: "Preview", previewAlt: (title) => `Wallpaper preview: ${title}`, cardAlt: (title, cat) => `${title} — ${cat}`,
+    close: "Close", theme: "Toggle dark/light mode", language: "Language", scrollTop: "Back to top",
+    skip: "Skip to main content", idLabel: "ID",
+    rights: "© 2026 Qurishi Printing · All rights reserved",
+    whatsappMsg: (id, title, url) => `السلام علیکم\nI want this wallpaper.\n\nID: ${id}\nTitle: ${title}\n\nImage:\n${url}`,
+  },
 };
 
-// Current active language (default English)
-let currentLang = localStorage.getItem("qurishi_lang") || "en";
+const DEFAULT_LANG = "ps";
+const LANG_KEY = "qurishi_lang";
 
-/**
- * Get a translation string for the current language.
- * @param {string} key
- * @param {...any} args — forwarded to function values
- */
+// Pashto unless the visitor EXPLICITLY picked another language earlier. Browser language is deliberately ignored.
+function readStoredLang() {
+  try {
+    const v = localStorage.getItem(LANG_KEY);
+    return v && TRANSLATIONS[v] ? v : DEFAULT_LANG;
+  } catch { return DEFAULT_LANG; }
+}
+
+let currentLang = readStoredLang();
+
 function t(key, ...args) {
-  const val = TRANSLATIONS[currentLang]?.[key] ?? TRANSLATIONS.en[key] ?? key;
+  const val = TRANSLATIONS[currentLang]?.[key] ?? TRANSLATIONS[DEFAULT_LANG][key] ?? key;
   return typeof val === "function" ? val(...args) : val;
 }
 
-/**
- * Change the active language and persist it.
- * Dispatches a "langchange" event on document.
- */
 function setLang(lang) {
   if (!TRANSLATIONS[lang]) return;
   currentLang = lang;
-  localStorage.setItem("qurishi_lang", lang);
+  try { localStorage.setItem(LANG_KEY, lang); } catch { /* private mode */ }
   document.dispatchEvent(new CustomEvent("langchange", { detail: { lang } }));
 }

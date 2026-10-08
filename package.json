@@ -1,0 +1,16 @@
+{
+  "name": "qurishi-wallpapers",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Qurishi 3D Wallpapers — Pashto-first gallery with secure admin, automatic image optimization and GitHub storage",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "hash-password": "node scripts/hash-password.js",
+    "dev": "node scripts/dev-server.js",
+    "sync": "python3 scripts/sync_data.py"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
