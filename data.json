@@ -1,5 +1,19 @@
 [
   {
+    "id": "38",
+    "title": "Wall 38",
+    "category": "wall",
+    "image": "images/wall/38.webp",
+    "thumbnail": "thumbs/wall/38.webp",
+    "width": 1408,
+    "height": 898,
+    "aspectRatio": 1.5679,
+    "fileSize": 130154,
+    "format": "webp",
+    "createdAt": "2026-10-08T12:45:52.455Z",
+    "hash": "ea9e1ed59dbcc1bea2bbfd8e43a0e283"
+  },
+  {
     "id": "735",
     "title": "Ceiling 735",
     "category": "ceiling",
