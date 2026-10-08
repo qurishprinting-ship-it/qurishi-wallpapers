@@ -2293,19 +2293,6 @@
     "createdAt": "2026-06-21T11:28:33+04:30"
   },
   {
-    "id": "292",
-    "title": "Flat 292",
-    "category": "flat",
-    "image": "images/flat/292.jpg",
-    "thumbnail": "thumbs/flat/292.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 38070,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
-  },
-  {
     "id": "292 1f",
     "title": "Flat 292 1f",
     "category": "flat",
