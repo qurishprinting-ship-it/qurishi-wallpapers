@@ -1,5 +1,19 @@
 [
   {
+    "id": "44",
+    "title": "Ceiling 44",
+    "category": "ceiling",
+    "image": "images/ceiling/44.webp",
+    "thumbnail": "thumbs/ceiling/44.webp",
+    "width": 800,
+    "height": 410,
+    "aspectRatio": 1.9512,
+    "fileSize": 21304,
+    "format": "webp",
+    "createdAt": "2026-10-08T12:04:30.175Z",
+    "hash": "a0b6b0d376ce32dd4f380129b3a285c8"
+  },
+  {
     "id": "43",
     "title": "Ceiling 43",
     "category": "ceiling",
