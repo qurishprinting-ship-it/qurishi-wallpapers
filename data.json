@@ -2184,19 +2184,6 @@
     "createdAt": "2026-06-21T11:22:39+04:30"
   },
   {
-    "id": "298",
-    "title": "Flat 298",
-    "category": "flat",
-    "image": "images/flat/298.jpg",
-    "thumbnail": "thumbs/flat/298.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 41709,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
-  },
-  {
     "id": "298 1f",
     "title": "Flat 298 1f",
     "category": "flat",
