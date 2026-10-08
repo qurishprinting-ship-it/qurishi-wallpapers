@@ -1,10 +1,10 @@
 [
   {
     "id": "5",
-    "title": "Wall 5",
-    "category": "wall",
-    "image": "images/wall/5.webp",
-    "thumbnail": "thumbs/wall/5.webp",
+    "title": "Ceiling 5",
+    "category": "ceiling",
+    "image": "images/ceiling/5.webp",
+    "thumbnail": "thumbs/ceiling/5.webp",
     "width": 1408,
     "height": 792,
     "aspectRatio": 1.7778,
