@@ -1,5 +1,19 @@
 [
   {
+    "id": "6",
+    "title": "Wall 6",
+    "category": "wall",
+    "image": "images/wall/6.webp",
+    "thumbnail": "thumbs/wall/6.webp",
+    "width": 800,
+    "height": 495,
+    "aspectRatio": 1.6162,
+    "fileSize": 67700,
+    "format": "webp",
+    "createdAt": "2026-10-08T12:03:00.013Z",
+    "hash": "eba33a180fd602fb88654fa77b8c7510"
+  },
+  {
     "id": "5",
     "title": "Wall 5",
     "category": "wall",
