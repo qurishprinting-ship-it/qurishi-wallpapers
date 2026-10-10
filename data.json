@@ -672,11 +672,11 @@
     "hash": "d7eddfcfaeb0f31f5e26697702c54805"
   },
   {
-    "id": "2",
-    "title": "Wall 2",
-    "category": "wall",
-    "image": "images/wall/2.webp",
-    "thumbnail": "thumbs/wall/2.webp",
+    "id": "740",
+    "title": "Ceiling 740",
+    "category": "ceiling",
+    "image": "images/ceiling/740.webp",
+    "thumbnail": "thumbs/ceiling/740.webp",
     "width": 800,
     "height": 400,
     "aspectRatio": 2,
