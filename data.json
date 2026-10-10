@@ -630,11 +630,11 @@
     "hash": "7e0f102d3a5fbb0b4652c9e658ee554e"
   },
   {
-    "id": "4",
-    "title": "Wall 4",
-    "category": "wall",
-    "image": "images/wall/4.webp",
-    "thumbnail": "thumbs/wall/4.webp",
+    "id": "738",
+    "title": "Ceiling 738",
+    "category": "ceiling",
+    "image": "images/ceiling/738.webp",
+    "thumbnail": "thumbs/ceiling/738.webp",
     "width": 800,
     "height": 533,
     "aspectRatio": 1.5009,
