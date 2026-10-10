@@ -1,10 +1,10 @@
 [
   {
     "id": "38",
-    "title": "Wall 38",
-    "category": "wall",
-    "image": "images/wall/38.webp",
-    "thumbnail": "thumbs/wall/38.webp",
+    "title": "Ceiling 38",
+    "category": "ceiling",
+    "image": "images/ceiling/38.webp",
+    "thumbnail": "thumbs/ceiling/38.webp",
     "width": 1408,
     "height": 898,
     "aspectRatio": 1.5679,
