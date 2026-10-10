@@ -644,11 +644,11 @@
     "hash": "c34b0d53e7cb256ac3d37b3a12da8e43"
   },
   {
-    "id": "3",
-    "title": "Wall 3",
-    "category": "wall",
-    "image": "images/wall/3.webp",
-    "thumbnail": "thumbs/wall/3.webp",
+    "id": "737",
+    "title": "Ceiling 737",
+    "category": "ceiling",
+    "image": "images/ceiling/737.webp",
+    "thumbnail": "thumbs/ceiling/737.webp",
     "width": 800,
     "height": 400,
     "aspectRatio": 2,
