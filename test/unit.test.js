@@ -13,8 +13,8 @@ test('sanitizeStem strips paths, dots, unicode tricks', () => {
 });
 
 test('assertSafePath only allows the exact repo layout', () => {
-  for (const ok of ['data.json', 'images/wall/1.webp', 'thumbs/flat/ab-c_1.webp', 'images/ceiling/002.jpg']) assert.equal(assertSafePath(ok), ok);
-  for (const bad of ['../data.json', 'images/../data.json', 'images/wall/../x.webp', '.github/workflows/x.yml', 'images/other/1.webp', 'images/wall/1.php', 'images/wall/.webp', '/images/wall/1.webp', 'images/wall/1.webp\n', 'images//wall/1.webp', 'package.json', 'api/admin/me.js'])
+  for (const ok of ['data.json', 'images/wall/1.webp', 'thumbs/flat/ab-c_1.webp', 'images/ceiling/002.jpg', 'settings.json', 'images/my-new-cat/7.webp', 'images/flat/465 1f.jpg']) assert.equal(assertSafePath(ok), ok);
+  for (const bad of ['../data.json', 'images/../data.json', 'images/wall/../x.webp', '.github/workflows/x.yml', 'images/Other/1.webp', 'images/-x/1.webp', 'images/wall/ 1.webp', 'images/wall/a.b.webp', 'settings.json.bak', 'images/wall/1.php', 'images/wall/.webp', '/images/wall/1.webp', 'images/wall/1.webp\n', 'images//wall/1.webp', 'package.json', 'api/admin/me.js'])
     assert.throws(() => assertSafePath(bad), { status: 400 }, bad);
 });
 

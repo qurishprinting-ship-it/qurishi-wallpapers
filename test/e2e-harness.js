@@ -48,8 +48,9 @@ require.cache[optPath] = { id: optPath, filename: optPath, loaded: true, exports
 // seed fake GitHub from the fixture site on disk
 const seed = {};
 const walk = (d) => { for (const f of fs.readdirSync(path.join(SITE, d))) { const rel = path.join(d, f); fs.statSync(path.join(SITE, rel)).isDirectory() ? walk(rel) : (seed[rel] = fs.readFileSync(path.join(SITE, rel))); } };
-for (const d of ['images/wall', 'images/ceiling', 'images/flat', 'thumbs/wall', 'thumbs/ceiling', 'thumbs/flat']) { try { walk(d); } catch { /* none */ } }
+for (const root of ['images', 'thumbs']) { try { for (const c of fs.readdirSync(path.join(SITE, root))) { try { walk(path.join(root, c)); } catch { /* not a dir */ } } } catch { /* none */ } }
 seed['data.json'] = fs.readFileSync(path.join(SITE, 'data.json'));
+try { seed['settings.json'] = fs.readFileSync(path.join(SITE, 'settings.json')); } catch { /* optional */ }
 const gh = fakeGitHub(Object.fromEntries(Object.entries(seed).map(([k, v]) => [k, v])));
 global.fetch = (u, i) => (String(u).startsWith('https://api.github.com') ? gh.fetchImpl(u, i) : Promise.reject(new Error('blocked ' + u)));
 
@@ -61,7 +62,7 @@ global.fetch = (u, i) => (String(u).startsWith('https://api.github.com') ? gh.fe
   const mime = { '.webp': 'image/webp', '.jpg': 'image/jpeg', '.png': 'image/png', '.json': 'application/json' };
   const server = require('http').createServer((req, res) => {
     const p = decodeURIComponent(new URL(req.url, 'http://x').pathname).slice(1);
-    if (req.method === 'GET' && /^(data\.json|(images|thumbs)\/(wall|ceiling|flat)\/[^/]+)$/.test(p) && gh.has(p)) { // "deployed" state = fake repo head
+    if (req.method === 'GET' && /^(data\.json|settings\.json|(images|thumbs)\/[a-z0-9-]+\/[^/]+)$/.test(p) && gh.has(p)) { // "deployed" state = fake repo head
       res.setHeader('Content-Type', mime[path.extname(p)] || 'application/octet-stream'); res.setHeader('Cache-Control', 'no-cache'); return res.end(gh.files().get(p));
     }
     inner.emit('request', req, res);

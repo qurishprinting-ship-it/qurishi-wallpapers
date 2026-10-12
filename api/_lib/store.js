@@ -16,6 +16,9 @@ function memExec(args) {
   const [op, key, ...rest] = args;
   const o = String(op).toUpperCase();
   switch (o) {
+    case 'GET': { const v = memGet(key); return v === undefined ? null : String(v); }
+    case 'SET': { mem.kv.set(key, String(rest[0])); mem.exp.delete(key); return 'OK'; }
+    case 'DEL': { const had = mem.kv.delete(key); mem.exp.delete(key); return had ? 1 : 0; }
     case 'INCR': { const v = Number(memGet(key) || 0) + 1; mem.kv.set(key, v); return v; }
     case 'EXPIRE': { mem.exp.set(key, Date.now() + Number(rest[0]) * 1000); return 1; }
     case 'HINCRBY': {
