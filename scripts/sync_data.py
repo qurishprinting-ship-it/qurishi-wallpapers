@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Scan images/{wall,ceiling,flat}, then MERGE into data.json without losing anything.
+"""Scan images/<category>/ (every folder: the built-in three plus any category added in the admin panel), then MERGE into data.json without losing anything.
 
 * Keeps every existing record (IDs, titles, order, any extra fields).
 * Adds records for new image files (e.g. dropped in manually through GitHub).
@@ -11,7 +11,7 @@ Safe to run repeatedly. Requires Pillow.   usage: python3 scripts/sync_data.py [
 import argparse, json, os, subprocess, sys
 from PIL import Image, ImageOps
 
-CATS = ("wall", "ceiling", "flat")
+BUILTIN_CATS = ("wall", "ceiling", "flat")
 EXTS = (".webp", ".jpg", ".jpeg", ".png")
 THUMB_W = 480
 
@@ -35,8 +35,20 @@ def main():
     except FileNotFoundError:
         data = []
 
+    # Categories = the built-in three + settings.json + any folder that exists under images/.
+    cats = list(BUILTIN_CATS)
+    try:
+        with open(os.path.join(root, "settings.json"), encoding="utf-8") as f:
+            cats += [c["slug"] for c in json.load(f).get("categories", []) if isinstance(c.get("slug"), str)]
+    except (FileNotFoundError, ValueError):
+        pass
+    img_root = os.path.join(root, "images")
+    if os.path.isdir(img_root):
+        cats += [d for d in sorted(os.listdir(img_root)) if os.path.isdir(os.path.join(img_root, d)) and not d.startswith(".")]
+    cats = list(dict.fromkeys(cats))
+
     files = {}  # (cat, id) -> relative path
-    for cat in CATS:
+    for cat in cats:
         d = os.path.join(root, "images", cat)
         if not os.path.isdir(d):
             continue

@@ -22,8 +22,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" href="data.json" as="fetch" crossorigin>
+  <link rel="preload" href="settings.json" as="fetch" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;600&display=swap">
   <link rel="stylesheet" href="style.css">
+  <script src="shared/theme.js"></script>
+  <script src="theme-boot.js"></script>
 
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Store","name":"Qurishi 3D Wallpapers","description":"3D wall, ceiling and flat wallpaper designs available for order via WhatsApp.","url":"https://qurishiprinting.com","telephone":"+93782008590","contactPoint":{"@type":"ContactPoint","telephone":"+93782008590","contactType":"customer service","availableLanguage":["Pashto","Dari","English"]}}
@@ -64,9 +67,6 @@
 
   <nav id="tabs-bar" role="tablist" aria-label="کټګورۍ" data-i18n-attr="aria-label:categories">
     <button class="tab active" data-category="all" role="tab" aria-selected="true">ټول</button>
-    <button class="tab" data-category="wall" role="tab" aria-selected="false">وال</button>
-    <button class="tab" data-category="ceiling" role="tab" aria-selected="false">چت</button>
-    <button class="tab" data-category="flat" role="tab" aria-selected="false">فلیټ</button>
   </nav>
 
   <main id="gallery-section" tabindex="-1">
@@ -93,6 +93,7 @@
 
   <footer><p><span data-i18n="rights">© 2026 قریشی چاپ · ټول حقوق خوندي دي</span></p></footer>
 
+  <script src="shared/order.js"></script>
   <script src="translations.js"></script>
   <script src="script.js"></script>
 </body>

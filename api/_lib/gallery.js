@@ -1,19 +1,26 @@
 'use strict';
 // Pure gallery/metadata logic (no I/O) — unit tested.
-const { CATEGORIES } = require('./config');
+const { SLUG_RE } = require('./config');
 const { HttpError } = require('./http');
 
-const ID_RE = /^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$/;
+// Existing designs include IDs such as "465 1f" or "448 copy", so a single space (and a few harmless
+// punctuation marks) is allowed. Slashes, dots and control characters never are => no path traversal.
+const ID_RE = /^[a-zA-Z0-9][a-zA-Z0-9 _()+-]{0,63}$/;
+const validId = (id) => typeof id === 'string' && ID_RE.test(id) && !/\s$/.test(id);
 const keyOf = (category, id) => `${category}/${id}`;
 
 function parseKey(key) {
-  const m = /^(wall|ceiling|flat)\/([a-zA-Z0-9][a-zA-Z0-9_-]{0,63})$/.exec(String(key));
-  if (!m) throw new HttpError(400, 'Invalid wallpaper key');
-  return { category: m[1], id: m[2] };
+  const s = String(key);
+  const i = s.indexOf('/');
+  const category = i > 0 ? s.slice(0, i) : '';
+  const id = i > 0 ? s.slice(i + 1) : '';
+  if (!SLUG_RE.test(category) || !validId(id)) throw new HttpError(400, 'Invalid wallpaper key');
+  return { category, id };
 }
 
-function assertCategory(c) {
-  if (!CATEGORIES.includes(c)) throw new HttpError(400, 'Invalid category');
+// `known` = array of slugs from settings.json. Without it only the slug SHAPE is checked.
+function assertCategory(c, known) {
+  if (typeof c !== 'string' || !SLUG_RE.test(c) || (known && !known.includes(c))) throw new HttpError(400, 'Invalid category');
   return c;
 }
 
@@ -55,8 +62,10 @@ function locate(item, tree) {
   return { image, thumbnail: thumb };
 }
 
-function titleFor(category, id) {
-  return `${category[0].toUpperCase()}${category.slice(1)} ${id}`;
+// Default title shown for a design that was never renamed, e.g. "Wall 12".
+function titleFor(name, id) {
+  const n = String(name || '');
+  return `${n.charAt(0).toUpperCase()}${n.slice(1)} ${id}`;
 }
 
 function aspectOf(w, h) {
@@ -83,4 +92,32 @@ function sortItems(items, sort) {
   return by ? [...items].sort(by) : items;
 }
 
-module.exports = { locate, ID_RE, keyOf, parseKey, assertCategory, sanitizeStem, cleanTitle, paths, chooseId, titleFor, aspectOf, publicRecord, mergeCounts, sortItems };
+/**
+ * Move designs to another category by RE-POINTING existing blobs (no image bytes are downloaded or re-uploaded).
+ * Pure: returns { list, upserts, deletes, moves, done, skipped }. The caller commits and then fixes the order.
+ * `nameOf(slug)` gives the English/base category name used to recognise un-renamed default titles.
+ */
+function moveItems(list, tree, keys, target, nameOf = (s) => s) {
+  const upserts = [], deletes = [], moves = [], done = [], skipped = [];
+  let cur = list;
+  for (const { category, id } of keys) {
+    const idx = cur.findIndex((i) => i.category === category && i.id === id);
+    if (idx < 0 || category === target) { skipped.push(keyOf(category, id)); continue; }
+    const item = cur[idx];
+    const free = !cur.some((i) => i.category === target && i.id === id) && !tree.has(paths(target, id).image);
+    const newId = free ? id : chooseId(cur, target, '', (p) => tree.has(p));
+    const found = locate(item, tree);
+    const to = paths(target, newId, found.image ? found.image.split('.').pop() : 'webp');
+    for (const [from, dest] of [[found.image, to.image], [found.thumbnail, to.thumbnail]]) {
+      if (from) { upserts.push({ path: dest, sha: tree.get(from) }); deletes.push(from); }
+    }
+    const generic = [nameOf(category), category].some((n) => String(item.title).toLowerCase() === titleFor(n, id).toLowerCase());
+    cur = cur.slice();
+    cur[idx] = { ...item, category: target, id: newId, image: to.image, thumbnail: to.thumbnail, title: generic ? titleFor(nameOf(target), newId) : item.title };
+    moves.push({ from: keyOf(category, id), to: keyOf(target, newId), newId });
+    done.push(keyOf(category, id));
+  }
+  return { list: cur, upserts, deletes, moves, done, skipped };
+}
+
+module.exports = { locate, ID_RE, validId, keyOf, parseKey, assertCategory, sanitizeStem, cleanTitle, paths, chooseId, titleFor, aspectOf, publicRecord, mergeCounts, sortItems, moveItems };
