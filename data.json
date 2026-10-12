@@ -1,5 +1,19 @@
 [
   {
+    "id": "687",
+    "title": "Wall 687",
+    "category": "wall",
+    "image": "images/wall/687.webp",
+    "thumbnail": "thumbs/wall/687.webp",
+    "width": 800,
+    "height": 483,
+    "aspectRatio": 1.6563,
+    "fileSize": 59182,
+    "format": "webp",
+    "createdAt": "2026-10-12T11:01:46.132Z",
+    "hash": "2d7e559295462f3d0e1d1afbf36484f8"
+  },
+  {
     "id": "715",
     "title": "Wall 715",
     "category": "wall",
