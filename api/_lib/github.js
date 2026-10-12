@@ -6,9 +6,7 @@ const { HttpError } = require('./http');
 
 const API = 'https://api.github.com';
 // Only these exact path shapes may ever be written/deleted. No traversal, no arbitrary paths.
-// <category> is a slug (a-z, 0-9, dash); membership in settings.json is checked by the endpoints.
-// File stems allow the single spaces/brackets that exist in legacy names such as "465 1f.jpg".
-const SAFE_PATH = /^(?:data\.json|settings\.json|(?:images|thumbs)\/[a-z0-9][a-z0-9-]{0,29}\/[a-zA-Z0-9][a-zA-Z0-9 _()+-]{0,63}\.(?:webp|jpg|jpeg|png|WEBP|JPG|JPEG|PNG))$/;
+const SAFE_PATH = /^(?:data\.json|(?:images|thumbs)\/(?:wall|ceiling|flat)\/[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}\.(?:webp|jpg|jpeg|png|WEBP|JPG|JPEG|PNG))$/;
 
 function assertSafePath(p) {
   if (typeof p !== 'string' || !SAFE_PATH.test(p)) throw new HttpError(400, 'Unsafe repository path');
@@ -93,7 +91,7 @@ async function updateRepo(message, build) {
         return treeMap;
       },
       async readText(path) {
-        const buf = await gh('GET', `/contents/${path.split('/').map(encodeURIComponent).join('/')}?ref=${headSha}`, null, { accept: 'application/vnd.github.raw+json', raw: true });
+        const buf = await gh('GET', `/contents/${path}?ref=${headSha}`, null, { accept: 'application/vnd.github.raw+json', raw: true });
         return buf ? buf.toString('utf8') : null;
       },
     };
@@ -136,13 +134,6 @@ async function readDataJson() {
   return data;
 }
 
-// Fresh read of any text file from the branch (null when it does not exist).
-async function readFile(path) {
-  const c = cfg();
-  const buf = await gh('GET', `/contents/${path.split('/').map(encodeURIComponent).join('/')}?ref=${encodeURIComponent(c.branch)}`, null, { accept: 'application/vnd.github.raw+json', raw: true });
-  return buf ? buf.toString('utf8') : null;
-}
-
 const configured = () => Boolean(env('GITHUB_OWNER') && env('GITHUB_REPO') && env('GITHUB_TOKEN'));
 
-module.exports = { assertSafePath, updateRepo, readDataJson, readFile, configured, SAFE_PATH };
+module.exports = { assertSafePath, updateRepo, readDataJson, configured, SAFE_PATH };

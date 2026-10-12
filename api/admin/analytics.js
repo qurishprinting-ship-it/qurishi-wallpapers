@@ -8,7 +8,7 @@ const DAYS = 30;
 const top = (obj, n = 10) => Object.entries(obj).sort((a, b) => b[1] - a[1]).slice(0, n).map(([key, count]) => ({ key, count }));
 
 module.exports = route(['GET'], async (req, res) => {
-  await auth.requireAdmin(req);
+  auth.requireAdmin(req);
   const days = Array.from({ length: DAYS }, (_, i) => dayKey(i));
   const cmds = [
     ['HGETALL', 'stats:total'], ['PFCOUNT', 'uv:all'], ['HGETALL', 'wp:views'], ['HGETALL', 'wp:wa'],

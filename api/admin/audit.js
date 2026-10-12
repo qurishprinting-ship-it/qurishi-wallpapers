@@ -4,7 +4,7 @@ const auth = require('../_lib/auth');
 const store = require('../_lib/store');
 
 module.exports = route(['GET'], async (req, res) => {
-  await auth.requireAdmin(req);
+  auth.requireAdmin(req);
   const [rows] = await store.pipeline([['LRANGE', 'audit', 0, 99]]);
   send(res, 200, { entries: (rows || []).map((x) => { try { return JSON.parse(x); } catch { return null; } }).filter(Boolean) });
 });

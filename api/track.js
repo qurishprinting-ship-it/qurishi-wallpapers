@@ -1,26 +1,20 @@
 'use strict';
 // Public, write-only analytics beacon. No personal data stored: visitors are counted via a daily-rotating salted hash in a HyperLogLog.
 const { route, send, readJson, clientIp, shortHash, noBody } = require('./_lib/http');
-const { env } = require('./_lib/config');
-const { validId } = require('./_lib/gallery');
-const known = require('./_lib/categories');
+const { env, CATEGORIES } = require('./_lib/config');
+const { ID_RE } = require('./_lib/gallery');
 const { dayKey } = require('./_lib/analytics');
 const store = require('./_lib/store');
 
-// The public site may be served from GitHub Pages (another origin), so this one endpoint answers CORS for it.
-const ALLOWED_ORIGINS = new Set((env('TRACK_ALLOWED_ORIGINS', 'https://qurishprinting-ship-it.github.io')).split(',').map((s) => s.trim()).filter(Boolean));
-const cors = (req) => (ALLOWED_ORIGINS.has(req.headers.origin) ? { 'Access-Control-Allow-Origin': req.headers.origin, Vary: 'Origin' } : {});
-
-const handler = route(['POST', 'OPTIONS'], async (req, res) => {
-  if (req.method === 'OPTIONS') return send(res, 204, undefined, { ...cors(req), 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Max-Age': '86400' });
+const handler = route(['POST'], async (req, res) => {
   const ip = clientIp(req);
   const rl = await store.rateLimit(`track:${shortHash(ip)}`, 120, 60);
   if (!rl.ok) return send(res, 429, { error: 'Too many requests' });
 
   const b = await readJson(req, 2048);
   const day = dayKey();
-  const cat = typeof b.category === 'string' && (await known.knownSlugs()).has(b.category) ? b.category : null;
-  const id = validId(b.id) ? b.id : null;
+  const cat = CATEGORIES.includes(b.category) ? b.category : null;
+  const id = typeof b.id === 'string' && ID_RE.test(b.id) ? b.id : null;
   const key = cat && id ? `${cat}/${id}` : null;
   const source = b.source === 'preview' ? 'preview' : 'card';
   const cmds = [];
@@ -52,7 +46,7 @@ const handler = route(['POST', 'OPTIONS'], async (req, res) => {
       return send(res, 400, { error: 'Unknown event' });
   }
   try { await store.pipeline(cmds); } catch (e) { console.error('[track] store error:', e.message); }
-  send(res, 204, undefined, cors(req));
+  send(res, 204);
 });
 
 module.exports = handler;
