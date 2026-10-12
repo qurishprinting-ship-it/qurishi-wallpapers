@@ -1,3995 +1,1387 @@
 [
   {
-    "id": "38",
-    "title": "Ceiling 38",
-    "category": "ceiling",
-    "image": "images/ceiling/38.webp",
-    "thumbnail": "thumbs/ceiling/38.webp",
-    "width": 1408,
-    "height": 898,
-    "aspectRatio": 1.5679,
-    "fileSize": 130154,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:45:52.455Z",
-    "hash": "ea9e1ed59dbcc1bea2bbfd8e43a0e283"
-  },
-  {
-    "id": "735",
-    "title": "Ceiling 735",
-    "category": "ceiling",
-    "image": "images/ceiling/735.webp",
-    "thumbnail": "thumbs/ceiling/735.webp",
-    "width": 800,
-    "height": 649,
-    "aspectRatio": 1.2327,
-    "fileSize": 50972,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:06:59.502Z",
-    "hash": "c34e3712ab50d9a92c8deba9c4d6a2d4"
-  },
-  {
-    "id": "734",
-    "title": "Ceiling 734",
-    "category": "ceiling",
-    "image": "images/ceiling/734.webp",
-    "thumbnail": "thumbs/ceiling/734.webp",
-    "width": 800,
-    "height": 452,
-    "aspectRatio": 1.7699,
-    "fileSize": 96032,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:06:54.921Z",
-    "hash": "19b8a0c44e9098c93cd0466fc11468b2"
-  },
-  {
-    "id": "733",
-    "title": "Ceiling 733",
-    "category": "ceiling",
-    "image": "images/ceiling/733.webp",
-    "thumbnail": "thumbs/ceiling/733.webp",
-    "width": 800,
-    "height": 570,
-    "aspectRatio": 1.4035,
-    "fileSize": 86134,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:06:50.899Z",
-    "hash": "413e0c28e9def7c60a243a452d99c668"
-  },
-  {
-    "id": "732",
-    "title": "Ceiling 732",
-    "category": "ceiling",
-    "image": "images/ceiling/732.webp",
-    "thumbnail": "thumbs/ceiling/732.webp",
-    "width": 800,
-    "height": 474,
-    "aspectRatio": 1.6878,
-    "fileSize": 96864,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:06:44.376Z",
-    "hash": "01c745f5bd53eabf42e4782f76c0109d"
-  },
-  {
-    "id": "731",
-    "title": "Ceiling 731",
-    "category": "ceiling",
-    "image": "images/ceiling/731.webp",
-    "thumbnail": "thumbs/ceiling/731.webp",
-    "width": 800,
-    "height": 477,
-    "aspectRatio": 1.6771,
-    "fileSize": 78458,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:06:40.659Z",
-    "hash": "ea1fb05ea3abba53dbcd107696723034"
-  },
-  {
-    "id": "730",
-    "title": "Ceiling 730",
-    "category": "ceiling",
-    "image": "images/ceiling/730.webp",
-    "thumbnail": "thumbs/ceiling/730.webp",
-    "width": 800,
-    "height": 492,
-    "aspectRatio": 1.626,
-    "fileSize": 95064,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:06:35.232Z",
-    "hash": "51da4efc240cea4daa0266fb431c70e3"
-  },
-  {
-    "id": "729",
-    "title": "Ceiling 729",
-    "category": "ceiling",
-    "image": "images/ceiling/729.webp",
-    "thumbnail": "thumbs/ceiling/729.webp",
-    "width": 800,
-    "height": 351,
-    "aspectRatio": 2.2792,
-    "fileSize": 43268,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:06:29.605Z",
-    "hash": "6e3890783bf8d6a74e877f84e7d9e19a"
-  },
-  {
-    "id": "728",
-    "title": "Ceiling 728",
-    "category": "ceiling",
-    "image": "images/ceiling/728.webp",
-    "thumbnail": "thumbs/ceiling/728.webp",
-    "width": 800,
-    "height": 603,
-    "aspectRatio": 1.3267,
-    "fileSize": 64210,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:06:28.834Z",
-    "hash": "e25b3819b04a65860af7df0e89025719"
-  },
-  {
-    "id": "727",
-    "title": "Ceiling 727",
-    "category": "ceiling",
-    "image": "images/ceiling/727.webp",
-    "thumbnail": "thumbs/ceiling/727.webp",
-    "width": 800,
-    "height": 567,
-    "aspectRatio": 1.4109,
-    "fileSize": 49192,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:06:21.890Z",
-    "hash": "f29fd84fff4337955052816e165c16f7"
-  },
-  {
-    "id": "726",
-    "title": "Ceiling 726",
-    "category": "ceiling",
-    "image": "images/ceiling/726.webp",
-    "thumbnail": "thumbs/ceiling/726.webp",
-    "width": 800,
-    "height": 426,
-    "aspectRatio": 1.8779,
-    "fileSize": 22888,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:06:18.556Z",
-    "hash": "52730531fd459389641c246108a0fb9f"
-  },
-  {
-    "id": "725",
-    "title": "Ceiling 725",
-    "category": "ceiling",
-    "image": "images/ceiling/725.webp",
-    "thumbnail": "thumbs/ceiling/725.webp",
-    "width": 800,
-    "height": 483,
-    "aspectRatio": 1.6563,
-    "fileSize": 57654,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:06:17.488Z",
-    "hash": "078ccb50cb80b7e0c9a4eb439252da67"
-  },
-  {
-    "id": "724",
-    "title": "Ceiling 724",
-    "category": "ceiling",
-    "image": "images/ceiling/724.webp",
-    "thumbnail": "thumbs/ceiling/724.webp",
-    "width": 800,
-    "height": 524,
-    "aspectRatio": 1.5267,
-    "fileSize": 75910,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:06:13.880Z",
-    "hash": "13abfeffa76f0e8ca396113dadc3012d"
-  },
-  {
-    "id": "723",
-    "title": "Ceiling 723",
-    "category": "ceiling",
-    "image": "images/ceiling/723.webp",
-    "thumbnail": "thumbs/ceiling/723.webp",
-    "width": 800,
-    "height": 533,
-    "aspectRatio": 1.5009,
-    "fileSize": 77702,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:06:09.994Z",
-    "hash": "a7bf5a823041ea9020150cb1b3cae83d"
-  },
-  {
-    "id": "722",
-    "title": "Ceiling 722",
-    "category": "ceiling",
-    "image": "images/ceiling/722.webp",
-    "thumbnail": "thumbs/ceiling/722.webp",
-    "width": 800,
-    "height": 560,
-    "aspectRatio": 1.4286,
-    "fileSize": 49554,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:06:04.007Z",
-    "hash": "5031248a18e242d1abab9c0df0662c97"
-  },
-  {
-    "id": "717",
-    "title": "Ceiling 717",
-    "category": "ceiling",
-    "image": "images/ceiling/717.webp",
-    "thumbnail": "thumbs/ceiling/717.webp",
-    "width": 800,
-    "height": 480,
-    "aspectRatio": 1.6667,
-    "fileSize": 96036,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:05:56.687Z",
-    "hash": "a3c4415a302f65d37c18d2441437fec6"
-  },
-  {
-    "id": "716",
-    "title": "Ceiling 716",
-    "category": "ceiling",
-    "image": "images/ceiling/716.webp",
-    "thumbnail": "thumbs/ceiling/716.webp",
-    "width": 800,
-    "height": 669,
-    "aspectRatio": 1.1958,
-    "fileSize": 33618,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:05:59.177Z",
-    "hash": "6e4851ab8b9d1a859ea9644cb134e583"
-  },
-  {
-    "id": "687",
-    "title": "Ceiling 687",
-    "category": "ceiling",
-    "image": "images/ceiling/687.webp",
-    "thumbnail": "thumbs/ceiling/687.webp",
-    "width": 800,
-    "height": 483,
-    "aspectRatio": 1.6563,
-    "fileSize": 59182,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:05:47.935Z",
-    "hash": "2d7e559295462f3d0e1d1afbf36484f8"
-  },
-  {
-    "id": "715",
-    "title": "Ceiling 715",
-    "category": "ceiling",
-    "image": "images/ceiling/715.webp",
-    "thumbnail": "thumbs/ceiling/715.webp",
-    "width": 800,
-    "height": 592,
-    "aspectRatio": 1.3514,
-    "fileSize": 50038,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:05:49.694Z",
-    "hash": "1673c7d49219d64d439cc861d84b86b2"
-  },
-  {
-    "id": "673",
-    "title": "Ceiling 673",
-    "category": "ceiling",
-    "image": "images/ceiling/673.webp",
-    "thumbnail": "thumbs/ceiling/673.webp",
-    "width": 740,
-    "height": 800,
-    "aspectRatio": 0.925,
-    "fileSize": 73660,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:05:45.011Z",
-    "hash": "7de56c71e17dcf7e12fa73fc0dd65db6"
-  },
-  {
-    "id": "664",
-    "title": "Ceiling 664",
-    "category": "ceiling",
-    "image": "images/ceiling/664.webp",
-    "thumbnail": "thumbs/ceiling/664.webp",
-    "width": 800,
-    "height": 441,
-    "aspectRatio": 1.8141,
-    "fileSize": 62320,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:05:38.840Z",
-    "hash": "d3ffc0960382b8c904dde64754bca9d6"
-  },
-  {
-    "id": "659",
-    "title": "Ceiling 659",
-    "category": "ceiling",
-    "image": "images/ceiling/659.webp",
-    "thumbnail": "thumbs/ceiling/659.webp",
-    "width": 800,
-    "height": 452,
-    "aspectRatio": 1.7699,
-    "fileSize": 55320,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:05:34.818Z",
-    "hash": "a41445fa598daf97fc841449c825870a"
-  },
-  {
-    "id": "621",
-    "title": "Ceiling 621",
-    "category": "ceiling",
-    "image": "images/ceiling/621.webp",
-    "thumbnail": "thumbs/ceiling/621.webp",
-    "width": 479,
-    "height": 800,
-    "aspectRatio": 0.5988,
-    "fileSize": 75802,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:05:25.407Z",
-    "hash": "25a68c5571d27325d59718b3b0ef12f7"
+    "id": "655",
+    "title": "Wall 655",
+    "category": "wall"
   },
   {
     "id": "654",
-    "title": "Ceiling 654",
-    "category": "ceiling",
-    "image": "images/ceiling/654.webp",
-    "thumbnail": "thumbs/ceiling/654.webp",
-    "width": 800,
-    "height": 449,
-    "aspectRatio": 1.7817,
-    "fileSize": 40068,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:05:28.188Z",
-    "hash": "932020cd569049e3b1f533f465ece362"
+    "title": "Wall 654",
+    "category": "wall"
   },
   {
-    "id": "618",
-    "title": "Ceiling 618",
-    "category": "ceiling",
-    "image": "images/ceiling/618.webp",
-    "thumbnail": "thumbs/ceiling/618.webp",
-    "width": 800,
-    "height": 709,
-    "aspectRatio": 1.1283,
-    "fileSize": 54050,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:05:22.561Z",
-    "hash": "bfc0760344175095f6fdddc4abdcb537"
+    "id": "653",
+    "title": "Wall 653",
+    "category": "wall"
   },
   {
-    "id": "610",
-    "title": "Ceiling 610",
-    "category": "ceiling",
-    "image": "images/ceiling/610.webp",
-    "thumbnail": "thumbs/ceiling/610.webp",
-    "width": 800,
-    "height": 499,
-    "aspectRatio": 1.6032,
-    "fileSize": 49258,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:05:15.039Z",
-    "hash": "b3ef31b70d0740b53d3419df5ddc04e3"
+    "id": "652",
+    "title": "Wall 652",
+    "category": "wall"
   },
   {
-    "id": "585",
-    "title": "Ceiling 585",
-    "category": "ceiling",
-    "image": "images/ceiling/585.webp",
-    "thumbnail": "thumbs/ceiling/585.webp",
-    "width": 800,
-    "height": 499,
-    "aspectRatio": 1.6032,
-    "fileSize": 53784,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:05:11.162Z",
-    "hash": "395431d799913d6e39883843269f875d"
+    "id": "651",
+    "title": "Wall 651",
+    "category": "wall"
   },
   {
-    "id": "451",
-    "title": "Ceiling 451",
-    "category": "ceiling",
-    "image": "images/ceiling/451.webp",
-    "thumbnail": "thumbs/ceiling/451.webp",
-    "width": 800,
-    "height": 515,
-    "aspectRatio": 1.5534,
-    "fileSize": 54852,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:05:06.813Z",
-    "hash": "871917807b7adcc9afadc9eea9bc3b27"
+    "id": "650",
+    "title": "Wall 650",
+    "category": "wall"
   },
   {
-    "id": "435",
-    "title": "Ceiling 435",
-    "category": "ceiling",
-    "image": "images/ceiling/435.webp",
-    "thumbnail": "thumbs/ceiling/435.webp",
-    "width": 800,
-    "height": 800,
-    "aspectRatio": 1,
-    "fileSize": 129730,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:05:04.654Z",
-    "hash": "c0d539ff741d660ca0cd85b4c488d1f4"
+    "id": "576",
+    "title": "Wall 576",
+    "category": "wall"
   },
   {
-    "id": "123",
-    "title": "Ceiling 123",
-    "category": "ceiling",
-    "image": "images/ceiling/123.webp",
-    "thumbnail": "thumbs/ceiling/123.webp",
-    "width": 800,
-    "height": 524,
-    "aspectRatio": 1.5267,
-    "fileSize": 79564,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:04:48.004Z",
-    "hash": "a3a63a64687eb765e97cc2405d5d25ac"
+    "id": "575",
+    "title": "Wall 575",
+    "category": "wall"
   },
   {
-    "id": "135",
-    "title": "Ceiling 135",
-    "category": "ceiling",
-    "image": "images/ceiling/135.webp",
-    "thumbnail": "thumbs/ceiling/135.webp",
-    "width": 800,
-    "height": 461,
-    "aspectRatio": 1.7354,
-    "fileSize": 49592,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:04:55.546Z",
-    "hash": "bbf2c925bd626bde93f6c558dde0c349"
+    "id": "574",
+    "title": "Wall 574",
+    "category": "wall"
   },
   {
-    "id": "129",
-    "title": "Ceiling 129",
-    "category": "ceiling",
-    "image": "images/ceiling/129.webp",
-    "thumbnail": "thumbs/ceiling/129.webp",
-    "width": 800,
-    "height": 480,
-    "aspectRatio": 1.6667,
-    "fileSize": 48232,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:04:50.266Z",
-    "hash": "9e7d9111eff6bdb0fdbd5f1089ef2781"
+    "id": "573",
+    "title": "Wall 573",
+    "category": "wall"
   },
   {
-    "id": "110",
-    "title": "Ceiling 110",
-    "category": "ceiling",
-    "image": "images/ceiling/110.webp",
-    "thumbnail": "thumbs/ceiling/110.webp",
-    "width": 800,
-    "height": 533,
-    "aspectRatio": 1.5009,
-    "fileSize": 68888,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:04:45.354Z",
-    "hash": "b220905cede138141516d6aa3ee89f44"
+    "id": "572",
+    "title": "Wall 572",
+    "category": "wall"
   },
   {
-    "id": "86",
-    "title": "Ceiling 86",
-    "category": "ceiling",
-    "image": "images/ceiling/86.webp",
-    "thumbnail": "thumbs/ceiling/86.webp",
-    "width": 800,
-    "height": 658,
-    "aspectRatio": 1.2158,
-    "fileSize": 42638,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:04:38.415Z",
-    "hash": "9ec895d15a75a005d38b431e9d7d7eca"
+    "id": "571",
+    "title": "Wall 571",
+    "category": "wall"
   },
   {
-    "id": "85",
-    "title": "Ceiling 85",
-    "category": "ceiling",
-    "image": "images/ceiling/85.webp",
-    "thumbnail": "thumbs/ceiling/85.webp",
-    "width": 800,
-    "height": 450,
-    "aspectRatio": 1.7778,
-    "fileSize": 96816,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:04:37.028Z",
-    "hash": "00a922e1df060bf18d852b92e623bf8e"
+    "id": "570",
+    "title": "Wall 570",
+    "category": "wall"
   },
   {
-    "id": "37",
-    "title": "Ceiling 37",
-    "category": "ceiling",
-    "image": "images/ceiling/37.webp",
-    "thumbnail": "thumbs/ceiling/37.webp",
-    "width": 800,
-    "height": 533,
-    "aspectRatio": 1.5009,
-    "fileSize": 68882,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:04:24.568Z",
-    "hash": "1246824cce6717258a7886f756a0079b"
+    "id": "569",
+    "title": "Wall 569",
+    "category": "wall"
   },
   {
-    "id": "44",
-    "title": "Ceiling 44",
-    "category": "ceiling",
-    "image": "images/ceiling/44.webp",
-    "thumbnail": "thumbs/ceiling/44.webp",
-    "width": 800,
-    "height": 410,
-    "aspectRatio": 1.9512,
-    "fileSize": 21304,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:04:30.175Z",
-    "hash": "a0b6b0d376ce32dd4f380129b3a285c8"
+    "id": "568",
+    "title": "Wall 568",
+    "category": "wall"
   },
   {
-    "id": "43",
-    "title": "Ceiling 43",
-    "category": "ceiling",
-    "image": "images/ceiling/43.webp",
-    "thumbnail": "thumbs/ceiling/43.webp",
-    "width": 800,
-    "height": 360,
-    "aspectRatio": 2.2222,
-    "fileSize": 22572,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:04:26.231Z",
-    "hash": "ca9631e787b4ed54e77f3533532f3c0f"
+    "id": "567",
+    "title": "Wall 567",
+    "category": "wall"
   },
   {
-    "id": "12",
-    "title": "Ceiling 12",
-    "category": "ceiling",
-    "image": "images/ceiling/12.webp",
-    "thumbnail": "thumbs/ceiling/12.webp",
-    "width": 800,
-    "height": 514,
-    "aspectRatio": 1.5564,
-    "fileSize": 50310,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:04:18.340Z",
-    "hash": "ba78b8e32aa78fef6d2d2888bdc0bfb8"
+    "id": "566",
+    "title": "Wall 566",
+    "category": "wall"
   },
   {
-    "id": "11",
-    "title": "Ceiling 11",
-    "category": "ceiling",
-    "image": "images/ceiling/11.webp",
-    "thumbnail": "thumbs/ceiling/11.webp",
-    "width": 800,
-    "height": 509,
-    "aspectRatio": 1.5717,
-    "fileSize": 67884,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:04:17.980Z",
-    "hash": "d37a3d2556f03f73cbd5f75cfe077371"
+    "id": "565",
+    "title": "Wall 565",
+    "category": "wall"
   },
   {
-    "id": "9",
-    "title": "Ceiling 9",
-    "category": "ceiling",
-    "image": "images/ceiling/9.webp",
-    "thumbnail": "thumbs/ceiling/9.webp",
-    "width": 800,
-    "height": 733,
-    "aspectRatio": 1.0914,
-    "fileSize": 24782,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:04:13.722Z",
-    "hash": "bed8a7b3cbb0a826e65430090e0d4cf1"
+    "id": "563",
+    "title": "Wall 563",
+    "category": "wall"
   },
   {
-    "id": "8",
-    "title": "Ceiling 8",
-    "category": "ceiling",
-    "image": "images/ceiling/8.webp",
-    "thumbnail": "thumbs/ceiling/8.webp",
-    "width": 800,
-    "height": 587,
-    "aspectRatio": 1.3629,
-    "fileSize": 66128,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:03:09.465Z",
-    "hash": "1a9bba16181511b2ba30679e2cd2ffed"
+    "id": "562",
+    "title": "Wall 562",
+    "category": "wall"
   },
   {
-    "id": "7",
-    "title": "Ceiling 7",
-    "category": "ceiling",
-    "image": "images/ceiling/7.webp",
-    "thumbnail": "thumbs/ceiling/7.webp",
-    "width": 800,
-    "height": 599,
-    "aspectRatio": 1.3356,
-    "fileSize": 88702,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:03:04.824Z",
-    "hash": "4e1403151da46450a810cec9eb73b862"
+    "id": "561",
+    "title": "Wall 561",
+    "category": "wall"
   },
   {
-    "id": "6",
-    "title": "Ceiling 6",
-    "category": "ceiling",
-    "image": "images/ceiling/6.webp",
-    "thumbnail": "thumbs/ceiling/6.webp",
-    "width": 800,
-    "height": 495,
-    "aspectRatio": 1.6162,
-    "fileSize": 67700,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:03:00.013Z",
-    "hash": "eba33a180fd602fb88654fa77b8c7510"
+    "id": "558",
+    "title": "Wall 558",
+    "category": "wall"
   },
   {
-    "id": "736",
-    "title": "Ceiling 736",
-    "category": "ceiling",
-    "image": "images/ceiling/736.webp",
-    "thumbnail": "thumbs/ceiling/736.webp",
-    "width": 800,
-    "height": 450,
-    "aspectRatio": 1.7778,
-    "fileSize": 65534,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:02:54.506Z",
-    "hash": "7e0f102d3a5fbb0b4652c9e658ee554e"
+    "id": "556",
+    "title": "Wall 556",
+    "category": "wall"
   },
   {
-    "id": "738",
-    "title": "Ceiling 738",
-    "category": "ceiling",
-    "image": "images/ceiling/738.webp",
-    "thumbnail": "thumbs/ceiling/738.webp",
-    "width": 800,
-    "height": 533,
-    "aspectRatio": 1.5009,
-    "fileSize": 111798,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:02:49.912Z",
-    "hash": "c34b0d53e7cb256ac3d37b3a12da8e43"
+    "id": "555",
+    "title": "Wall 555",
+    "category": "wall"
   },
   {
-    "id": "737",
-    "title": "Ceiling 737",
-    "category": "ceiling",
-    "image": "images/ceiling/737.webp",
-    "thumbnail": "thumbs/ceiling/737.webp",
-    "width": 800,
-    "height": 400,
-    "aspectRatio": 2,
-    "fileSize": 72474,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:02:44.536Z",
-    "hash": "7ed59a297bd61670344eb9bd1ef57b39"
-  },
-  {
-    "id": "739",
-    "title": "Ceiling 739",
-    "category": "ceiling",
-    "image": "images/ceiling/739.webp",
-    "thumbnail": "thumbs/ceiling/739.webp",
-    "width": 800,
-    "height": 450,
-    "aspectRatio": 1.7778,
-    "fileSize": 90862,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:02:38.196Z",
-    "hash": "d7eddfcfaeb0f31f5e26697702c54805"
-  },
-  {
-    "id": "740",
-    "title": "Ceiling 740",
-    "category": "ceiling",
-    "image": "images/ceiling/740.webp",
-    "thumbnail": "thumbs/ceiling/740.webp",
-    "width": 800,
-    "height": 400,
-    "aspectRatio": 2,
-    "fileSize": 90970,
-    "format": "webp",
-    "createdAt": "2026-10-08T12:02:37.708Z",
-    "hash": "8393f76376862a838d42fffee236b681"
-  },
-  {
-    "id": "5",
-    "title": "Ceiling 5",
-    "category": "ceiling",
-    "image": "images/ceiling/5.webp",
-    "thumbnail": "thumbs/ceiling/5.webp",
-    "width": 1408,
-    "height": 792,
-    "aspectRatio": 1.7778,
-    "fileSize": 138558,
-    "format": "webp",
-    "createdAt": "2026-10-08T10:05:51.941Z",
-    "hash": "c51286d19b75843fa046cb6261dd8e13"
-  },
-  {
-    "id": "4",
-    "title": "Ceiling 4",
-    "category": "ceiling",
-    "image": "images/ceiling/4.webp",
-    "thumbnail": "thumbs/ceiling/4.webp",
-    "width": 1216,
-    "height": 811,
-    "aspectRatio": 1.4994,
-    "fileSize": 205352,
-    "format": "webp",
-    "createdAt": "2026-10-08T10:05:30.763Z",
-    "hash": "7a7ca81f76d79b4a35a30390897fada3"
-  },
-  {
-    "id": "3",
-    "title": "Ceiling 3",
-    "category": "ceiling",
-    "image": "images/ceiling/3.webp",
-    "thumbnail": "thumbs/ceiling/3.webp",
-    "width": 1216,
-    "height": 608,
-    "aspectRatio": 2,
-    "fileSize": 128496,
-    "format": "webp",
-    "createdAt": "2026-10-08T10:05:21.161Z",
-    "hash": "2e8a597ebe264bbb18aa3f3fde8faf2f"
-  },
-  {
-    "id": "2",
-    "title": "Ceiling 2",
-    "category": "ceiling",
-    "image": "images/ceiling/2.webp",
-    "thumbnail": "thumbs/ceiling/2.webp",
-    "width": 1216,
-    "height": 608,
-    "aspectRatio": 2,
-    "fileSize": 163030,
-    "format": "webp",
-    "createdAt": "2026-10-08T10:05:03.952Z",
-    "hash": "be8c507153dfdb8941243efcce3bab33"
-  },
-  {
-    "id": "1",
-    "title": "Ceiling 1",
-    "category": "ceiling",
-    "image": "images/ceiling/1.webp",
-    "thumbnail": "thumbs/ceiling/1.webp",
-    "width": 1216,
-    "height": 684,
-    "aspectRatio": 1.7778,
-    "fileSize": 156074,
-    "format": "webp",
-    "createdAt": "2026-10-08T10:05:04.021Z",
-    "hash": "a5a51a189ded0cb823c9c397465d3a8c"
+    "id": "554",
+    "title": "Wall 554",
+    "category": "wall"
   },
   {
     "id": "553",
     "title": "Wall 553",
-    "category": "wall",
-    "image": "images/wall/553.webp",
-    "thumbnail": "thumbs/wall/553.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 167682,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "552",
     "title": "Wall 552",
-    "category": "wall",
-    "image": "images/wall/552.webp",
-    "thumbnail": "thumbs/wall/552.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 166120,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "550",
     "title": "Wall 550",
-    "category": "wall",
-    "image": "images/wall/550.webp",
-    "thumbnail": "thumbs/wall/550.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 182074,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "549",
     "title": "Wall 549",
-    "category": "wall",
-    "image": "images/wall/549.webp",
-    "thumbnail": "thumbs/wall/549.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 181184,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "547",
     "title": "Wall 547",
-    "category": "wall",
-    "image": "images/wall/547.webp",
-    "thumbnail": "thumbs/wall/547.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 188866,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "546",
     "title": "Wall 546",
-    "category": "wall",
-    "image": "images/wall/546.webp",
-    "thumbnail": "thumbs/wall/546.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 174168,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "544",
     "title": "Wall 544",
-    "category": "wall",
-    "image": "images/wall/544.webp",
-    "thumbnail": "thumbs/wall/544.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 191738,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "542",
     "title": "Wall 542",
-    "category": "wall",
-    "image": "images/wall/542.webp",
-    "thumbnail": "thumbs/wall/542.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 158460,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "541",
     "title": "Wall 541",
-    "category": "wall",
-    "image": "images/wall/541.webp",
-    "thumbnail": "thumbs/wall/541.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 180510,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "539",
     "title": "Wall 539",
-    "category": "wall",
-    "image": "images/wall/539.webp",
-    "thumbnail": "thumbs/wall/539.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 148796,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "537",
     "title": "Wall 537",
-    "category": "wall",
-    "image": "images/wall/537.webp",
-    "thumbnail": "thumbs/wall/537.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 134630,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "536",
     "title": "Wall 536",
-    "category": "wall",
-    "image": "images/wall/536.webp",
-    "thumbnail": "thumbs/wall/536.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 165648,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "535",
     "title": "Wall 535",
-    "category": "wall",
-    "image": "images/wall/535.webp",
-    "thumbnail": "thumbs/wall/535.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 172884,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "535-2",
     "title": "Wall 535-2",
-    "category": "wall",
-    "image": "images/wall/535-2.webp",
-    "thumbnail": "thumbs/wall/535-2.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 165102,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "534",
     "title": "Wall 534",
-    "category": "wall",
-    "image": "images/wall/534.webp",
-    "thumbnail": "thumbs/wall/534.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 187596,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "533",
     "title": "Wall 533",
-    "category": "wall",
-    "image": "images/wall/533.webp",
-    "thumbnail": "thumbs/wall/533.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 198672,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "532",
     "title": "Wall 532",
-    "category": "wall",
-    "image": "images/wall/532.webp",
-    "thumbnail": "thumbs/wall/532.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 191842,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "529",
     "title": "Wall 529",
-    "category": "wall",
-    "image": "images/wall/529.webp",
-    "thumbnail": "thumbs/wall/529.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 195028,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "528",
     "title": "Wall 528",
-    "category": "wall",
-    "image": "images/wall/528.webp",
-    "thumbnail": "thumbs/wall/528.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 203478,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "527",
     "title": "Wall 527",
-    "category": "wall",
-    "image": "images/wall/527.webp",
-    "thumbnail": "thumbs/wall/527.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 193560,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "526",
     "title": "Wall 526",
-    "category": "wall",
-    "image": "images/wall/526.webp",
-    "thumbnail": "thumbs/wall/526.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 178702,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "525",
     "title": "Wall 525",
-    "category": "wall",
-    "image": "images/wall/525.webp",
-    "thumbnail": "thumbs/wall/525.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 185344,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "524",
     "title": "Wall 524",
-    "category": "wall",
-    "image": "images/wall/524.webp",
-    "thumbnail": "thumbs/wall/524.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 189044,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "523",
     "title": "Wall 523",
-    "category": "wall",
-    "image": "images/wall/523.webp",
-    "thumbnail": "thumbs/wall/523.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 153064,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "522",
     "title": "Wall 522",
-    "category": "wall",
-    "image": "images/wall/522.webp",
-    "thumbnail": "thumbs/wall/522.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 182980,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "521",
     "title": "Wall 521",
-    "category": "wall",
-    "image": "images/wall/521.webp",
-    "thumbnail": "thumbs/wall/521.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 158916,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "520",
     "title": "Wall 520",
-    "category": "wall",
-    "image": "images/wall/520.webp",
-    "thumbnail": "thumbs/wall/520.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 184552,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "519",
     "title": "Wall 519",
-    "category": "wall",
-    "image": "images/wall/519.webp",
-    "thumbnail": "thumbs/wall/519.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 146350,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "518",
     "title": "Wall 518",
-    "category": "wall",
-    "image": "images/wall/518.webp",
-    "thumbnail": "thumbs/wall/518.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 178178,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "517",
     "title": "Wall 517",
-    "category": "wall",
-    "image": "images/wall/517.webp",
-    "thumbnail": "thumbs/wall/517.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 172120,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "516",
     "title": "Wall 516",
-    "category": "wall",
-    "image": "images/wall/516.webp",
-    "thumbnail": "thumbs/wall/516.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 176876,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "515",
     "title": "Wall 515",
-    "category": "wall",
-    "image": "images/wall/515.webp",
-    "thumbnail": "thumbs/wall/515.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 145516,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "514",
     "title": "Wall 514",
-    "category": "wall",
-    "image": "images/wall/514.webp",
-    "thumbnail": "thumbs/wall/514.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 182708,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "512",
     "title": "Wall 512",
-    "category": "wall",
-    "image": "images/wall/512.webp",
-    "thumbnail": "thumbs/wall/512.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 149942,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "511",
     "title": "Wall 511",
-    "category": "wall",
-    "image": "images/wall/511.webp",
-    "thumbnail": "thumbs/wall/511.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 184918,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "510",
     "title": "Wall 510",
-    "category": "wall",
-    "image": "images/wall/510.webp",
-    "thumbnail": "thumbs/wall/510.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 167806,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "509",
     "title": "Wall 509",
-    "category": "wall",
-    "image": "images/wall/509.webp",
-    "thumbnail": "thumbs/wall/509.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 175652,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "508",
     "title": "Wall 508",
-    "category": "wall",
-    "image": "images/wall/508.webp",
-    "thumbnail": "thumbs/wall/508.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 172822,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "507",
     "title": "Wall 507",
-    "category": "wall",
-    "image": "images/wall/507.webp",
-    "thumbnail": "thumbs/wall/507.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 201496,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "506",
     "title": "Wall 506",
-    "category": "wall",
-    "image": "images/wall/506.webp",
-    "thumbnail": "thumbs/wall/506.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 182184,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "503",
     "title": "Wall 503",
-    "category": "wall",
-    "image": "images/wall/503.webp",
-    "thumbnail": "thumbs/wall/503.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 203876,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "502",
     "title": "Wall 502",
-    "category": "wall",
-    "image": "images/wall/502.webp",
-    "thumbnail": "thumbs/wall/502.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 147796,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "501",
     "title": "Wall 501",
-    "category": "wall",
-    "image": "images/wall/501.webp",
-    "thumbnail": "thumbs/wall/501.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 175016,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "500",
     "title": "Wall 500",
-    "category": "wall",
-    "image": "images/wall/500.webp",
-    "thumbnail": "thumbs/wall/500.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 164554,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "499",
     "title": "Wall 499",
-    "category": "wall",
-    "image": "images/wall/499.webp",
-    "thumbnail": "thumbs/wall/499.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 148448,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "498",
     "title": "Wall 498",
-    "category": "wall",
-    "image": "images/wall/498.webp",
-    "thumbnail": "thumbs/wall/498.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 193802,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "497",
     "title": "Wall 497",
-    "category": "wall",
-    "image": "images/wall/497.webp",
-    "thumbnail": "thumbs/wall/497.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 170374,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "495",
     "title": "Wall 495",
-    "category": "wall",
-    "image": "images/wall/495.webp",
-    "thumbnail": "thumbs/wall/495.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 196376,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "494",
     "title": "Wall 494",
-    "category": "wall",
-    "image": "images/wall/494.webp",
-    "thumbnail": "thumbs/wall/494.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 196842,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "493",
     "title": "Wall 493",
-    "category": "wall",
-    "image": "images/wall/493.webp",
-    "thumbnail": "thumbs/wall/493.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 167682,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "492",
     "title": "Wall 492",
-    "category": "wall",
-    "image": "images/wall/492.webp",
-    "thumbnail": "thumbs/wall/492.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 177080,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "491",
     "title": "Wall 491",
-    "category": "wall",
-    "image": "images/wall/491.webp",
-    "thumbnail": "thumbs/wall/491.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 179770,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "490",
     "title": "Wall 490",
-    "category": "wall",
-    "image": "images/wall/490.webp",
-    "thumbnail": "thumbs/wall/490.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 172096,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "489",
     "title": "Wall 489",
-    "category": "wall",
-    "image": "images/wall/489.webp",
-    "thumbnail": "thumbs/wall/489.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 175414,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "488",
     "title": "Wall 488",
-    "category": "wall",
-    "image": "images/wall/488.webp",
-    "thumbnail": "thumbs/wall/488.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 153030,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "487",
     "title": "Wall 487",
-    "category": "wall",
-    "image": "images/wall/487.webp",
-    "thumbnail": "thumbs/wall/487.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 198198,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "486",
     "title": "Wall 486",
-    "category": "wall",
-    "image": "images/wall/486.webp",
-    "thumbnail": "thumbs/wall/486.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 193810,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "484",
     "title": "Wall 484",
-    "category": "wall",
-    "image": "images/wall/484.webp",
-    "thumbnail": "thumbs/wall/484.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 192882,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "483",
     "title": "Wall 483",
-    "category": "wall",
-    "image": "images/wall/483.webp",
-    "thumbnail": "thumbs/wall/483.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 166936,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "482",
     "title": "Wall 482",
-    "category": "wall",
-    "image": "images/wall/482.webp",
-    "thumbnail": "thumbs/wall/482.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 174342,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "481",
     "title": "Wall 481",
-    "category": "wall",
-    "image": "images/wall/481.webp",
-    "thumbnail": "thumbs/wall/481.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 185488,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "480",
     "title": "Wall 480",
-    "category": "wall",
-    "image": "images/wall/480.webp",
-    "thumbnail": "thumbs/wall/480.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 192372,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "479",
     "title": "Wall 479",
-    "category": "wall",
-    "image": "images/wall/479.webp",
-    "thumbnail": "thumbs/wall/479.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 182074,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "478",
     "title": "Wall 478",
-    "category": "wall",
-    "image": "images/wall/478.webp",
-    "thumbnail": "thumbs/wall/478.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 150570,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "477",
     "title": "Wall 477",
-    "category": "wall",
-    "image": "images/wall/477.webp",
-    "thumbnail": "thumbs/wall/477.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 200250,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "475",
     "title": "Wall 475",
-    "category": "wall",
-    "image": "images/wall/475.webp",
-    "thumbnail": "thumbs/wall/475.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 183940,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "473",
     "title": "Wall 473",
-    "category": "wall",
-    "image": "images/wall/473.webp",
-    "thumbnail": "thumbs/wall/473.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 165836,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "472",
     "title": "Wall 472",
-    "category": "wall",
-    "image": "images/wall/472.webp",
-    "thumbnail": "thumbs/wall/472.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 149960,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "471",
     "title": "Wall 471",
-    "category": "wall",
-    "image": "images/wall/471.webp",
-    "thumbnail": "thumbs/wall/471.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 141240,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "470",
     "title": "Wall 470",
-    "category": "wall",
-    "image": "images/wall/470.webp",
-    "thumbnail": "thumbs/wall/470.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 202524,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "469",
     "title": "Wall 469",
-    "category": "wall",
-    "image": "images/wall/469.webp",
-    "thumbnail": "thumbs/wall/469.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 202468,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "448 copy",
     "title": "Wall 448 copy",
-    "category": "wall",
-    "image": "images/wall/448 copy.webp",
-    "thumbnail": "thumbs/wall/448 copy.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 192622,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "128",
     "title": "Wall 128",
-    "category": "wall",
-    "image": "images/wall/128.webp",
-    "thumbnail": "thumbs/wall/128.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 167520,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "121",
     "title": "Wall 121",
-    "category": "wall",
-    "image": "images/wall/121.webp",
-    "thumbnail": "thumbs/wall/121.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 176410,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "120",
     "title": "Wall 120",
-    "category": "wall",
-    "image": "images/wall/120.webp",
-    "thumbnail": "thumbs/wall/120.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 196368,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "119",
     "title": "Wall 119",
-    "category": "wall",
-    "image": "images/wall/119.webp",
-    "thumbnail": "thumbs/wall/119.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 194562,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "118",
     "title": "Wall 118",
-    "category": "wall",
-    "image": "images/wall/118.webp",
-    "thumbnail": "thumbs/wall/118.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 158596,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "115",
     "title": "Wall 115",
-    "category": "wall",
-    "image": "images/wall/115.webp",
-    "thumbnail": "thumbs/wall/115.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 104154,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "114",
     "title": "Wall 114",
-    "category": "wall",
-    "image": "images/wall/114.webp",
-    "thumbnail": "thumbs/wall/114.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 168280,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "113",
     "title": "Wall 113",
-    "category": "wall",
-    "image": "images/wall/113.webp",
-    "thumbnail": "thumbs/wall/113.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 180902,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "108",
     "title": "Wall 108",
-    "category": "wall",
-    "image": "images/wall/108.webp",
-    "thumbnail": "thumbs/wall/108.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 164686,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "107",
     "title": "Wall 107",
-    "category": "wall",
-    "image": "images/wall/107.webp",
-    "thumbnail": "thumbs/wall/107.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 192768,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "105",
     "title": "Wall 105",
-    "category": "wall",
-    "image": "images/wall/105.webp",
-    "thumbnail": "thumbs/wall/105.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 126280,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "102",
     "title": "Wall 102",
-    "category": "wall",
-    "image": "images/wall/102.webp",
-    "thumbnail": "thumbs/wall/102.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 196062,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "101",
     "title": "Wall 101",
-    "category": "wall",
-    "image": "images/wall/101.webp",
-    "thumbnail": "thumbs/wall/101.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 181020,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
   },
   {
     "id": "002",
     "title": "Wall 002",
-    "category": "wall",
-    "image": "images/wall/002.webp",
-    "thumbnail": "thumbs/wall/002.webp",
-    "width": 1280,
-    "height": 720,
-    "aspectRatio": 1.7778,
-    "fileSize": 168608,
-    "format": "webp",
-    "createdAt": "2026-06-13T16:37:36+04:30"
+    "category": "wall"
+  },
+  {
+    "id": "002",
+    "title": "Ceiling 002",
+    "category": "ceiling"
   },
   {
     "id": "8",
     "title": "Flat 8",
-    "category": "flat",
-    "image": "images/flat/8.jpg",
-    "thumbnail": "thumbs/flat/8.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 130083,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "72",
     "title": "Flat 72",
-    "category": "flat",
-    "image": "images/flat/72.jpg",
-    "thumbnail": "thumbs/flat/72.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 106940,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "7",
     "title": "Flat 7",
-    "category": "flat",
-    "image": "images/flat/7.jpg",
-    "thumbnail": "thumbs/flat/7.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 126329,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "6",
     "title": "Flat 6",
-    "category": "flat",
-    "image": "images/flat/6.jpg",
-    "thumbnail": "thumbs/flat/6.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 78450,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "59",
     "title": "Flat 59",
-    "category": "flat",
-    "image": "images/flat/59.jpg",
-    "thumbnail": "thumbs/flat/59.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 101945,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "5",
     "title": "Flat 5",
-    "category": "flat",
-    "image": "images/flat/5.jpg",
-    "thumbnail": "thumbs/flat/5.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 120629,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "465 1f",
     "title": "Flat 465 1f",
-    "category": "flat",
-    "image": "images/flat/465 1f.jpg",
-    "thumbnail": "thumbs/flat/465 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 128426,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "42",
     "title": "Flat 42",
-    "category": "flat",
-    "image": "images/flat/42.jpg",
-    "thumbnail": "thumbs/flat/42.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 104738,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "41",
     "title": "Flat 41",
-    "category": "flat",
-    "image": "images/flat/41.jpg",
-    "thumbnail": "thumbs/flat/41.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 117415,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "38",
     "title": "Flat 38",
-    "category": "flat",
-    "image": "images/flat/38.jpg",
-    "thumbnail": "thumbs/flat/38.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 136582,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "362 1f",
     "title": "Flat 362 1f",
-    "category": "flat",
-    "image": "images/flat/362 1f.jpg",
-    "thumbnail": "thumbs/flat/362 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 105050,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "361 1f",
     "title": "Flat 361 1f",
-    "category": "flat",
-    "image": "images/flat/361 1f.jpg",
-    "thumbnail": "thumbs/flat/361 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 68350,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "359 1f",
     "title": "Flat 359 1f",
-    "category": "flat",
-    "image": "images/flat/359 1f.jpg",
-    "thumbnail": "thumbs/flat/359 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 99955,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "358 1f",
     "title": "Flat 358 1f",
-    "category": "flat",
-    "image": "images/flat/358 1f.jpg",
-    "thumbnail": "thumbs/flat/358 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 111361,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "357 1f",
     "title": "Flat 357 1f",
-    "category": "flat",
-    "image": "images/flat/357 1f.jpg",
-    "thumbnail": "thumbs/flat/357 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 142579,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "356 1f",
     "title": "Flat 356 1f",
-    "category": "flat",
-    "image": "images/flat/356 1f.jpg",
-    "thumbnail": "thumbs/flat/356 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 107564,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "355 1f",
     "title": "Flat 355 1f",
-    "category": "flat",
-    "image": "images/flat/355 1f.jpg",
-    "thumbnail": "thumbs/flat/355 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 124819,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "354 1F",
     "title": "Flat 354 1F",
-    "category": "flat",
-    "image": "images/flat/354 1F.jpg",
-    "thumbnail": "thumbs/flat/354 1F.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 44184,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "353 1f",
     "title": "Flat 353 1f",
-    "category": "flat",
-    "image": "images/flat/353 1f.jpg",
-    "thumbnail": "thumbs/flat/353 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 122408,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "351 1f",
     "title": "Flat 351 1f",
-    "category": "flat",
-    "image": "images/flat/351 1f.jpg",
-    "thumbnail": "thumbs/flat/351 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 163608,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "350 1f",
     "title": "Flat 350 1f",
-    "category": "flat",
-    "image": "images/flat/350 1f.jpg",
-    "thumbnail": "thumbs/flat/350 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 134569,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "349 1F",
     "title": "Flat 349 1F",
-    "category": "flat",
-    "image": "images/flat/349 1F.jpg",
-    "thumbnail": "thumbs/flat/349 1F.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 131649,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "348 1f",
     "title": "Flat 348 1f",
-    "category": "flat",
-    "image": "images/flat/348 1f.jpg",
-    "thumbnail": "thumbs/flat/348 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 97512,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "347 1f",
     "title": "Flat 347 1f",
-    "category": "flat",
-    "image": "images/flat/347 1f.jpg",
-    "thumbnail": "thumbs/flat/347 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 54078,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "346 1f",
     "title": "Flat 346 1f",
-    "category": "flat",
-    "image": "images/flat/346 1f.jpg",
-    "thumbnail": "thumbs/flat/346 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 142154,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "345 1f",
     "title": "Flat 345 1f",
-    "category": "flat",
-    "image": "images/flat/345 1f.jpg",
-    "thumbnail": "thumbs/flat/345 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 152867,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "343 1f",
     "title": "Flat 343 1f",
-    "category": "flat",
-    "image": "images/flat/343 1f.jpg",
-    "thumbnail": "thumbs/flat/343 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 99700,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "342 1f",
     "title": "Flat 342 1f",
-    "category": "flat",
-    "image": "images/flat/342 1f.jpg",
-    "thumbnail": "thumbs/flat/342 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 97591,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "340 1f",
     "title": "Flat 340 1f",
-    "category": "flat",
-    "image": "images/flat/340 1f.jpg",
-    "thumbnail": "thumbs/flat/340 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 156763,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "339 1f",
     "title": "Flat 339 1f",
-    "category": "flat",
-    "image": "images/flat/339 1f.jpg",
-    "thumbnail": "thumbs/flat/339 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 78706,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "338 1f",
     "title": "Flat 338 1f",
-    "category": "flat",
-    "image": "images/flat/338 1f.jpg",
-    "thumbnail": "thumbs/flat/338 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 84704,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "335 1f",
     "title": "Flat 335 1f",
-    "category": "flat",
-    "image": "images/flat/335 1f.jpg",
-    "thumbnail": "thumbs/flat/335 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 92969,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "334 1f",
     "title": "Flat 334 1f",
-    "category": "flat",
-    "image": "images/flat/334 1f.jpg",
-    "thumbnail": "thumbs/flat/334 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 103783,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "333 1f",
     "title": "Flat 333 1f",
-    "category": "flat",
-    "image": "images/flat/333 1f.jpg",
-    "thumbnail": "thumbs/flat/333 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 112285,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "332 1f",
     "title": "Flat 332 1f",
-    "category": "flat",
-    "image": "images/flat/332 1f.jpg",
-    "thumbnail": "thumbs/flat/332 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 99138,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "331 1f",
     "title": "Flat 331 1f",
-    "category": "flat",
-    "image": "images/flat/331 1f.jpg",
-    "thumbnail": "thumbs/flat/331 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 98253,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "323 1f",
     "title": "Flat 323 1f",
-    "category": "flat",
-    "image": "images/flat/323 1f.jpg",
-    "thumbnail": "thumbs/flat/323 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 106405,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "320 1f",
     "title": "Flat 320 1f",
-    "category": "flat",
-    "image": "images/flat/320 1f.jpg",
-    "thumbnail": "thumbs/flat/320 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 136247,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "319 1f",
     "title": "Flat 319 1f",
-    "category": "flat",
-    "image": "images/flat/319 1f.jpg",
-    "thumbnail": "thumbs/flat/319 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 58817,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "318 1f",
     "title": "Flat 318 1f",
-    "category": "flat",
-    "image": "images/flat/318 1f.jpg",
-    "thumbnail": "thumbs/flat/318 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 78983,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "317 1f",
     "title": "Flat 317 1f",
-    "category": "flat",
-    "image": "images/flat/317 1f.jpg",
-    "thumbnail": "thumbs/flat/317 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 64524,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "316 1f",
     "title": "Flat 316 1f",
-    "category": "flat",
-    "image": "images/flat/316 1f.jpg",
-    "thumbnail": "thumbs/flat/316 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 115677,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "315 1f",
     "title": "Flat 315 1f",
-    "category": "flat",
-    "image": "images/flat/315 1f.jpg",
-    "thumbnail": "thumbs/flat/315 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 162678,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "314 1f",
     "title": "Flat 314 1f",
-    "category": "flat",
-    "image": "images/flat/314 1f.jpg",
-    "thumbnail": "thumbs/flat/314 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 134166,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "313 1f",
     "title": "Flat 313 1f",
-    "category": "flat",
-    "image": "images/flat/313 1f.jpg",
-    "thumbnail": "thumbs/flat/313 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 146172,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "312 1f",
     "title": "Flat 312 1f",
-    "category": "flat",
-    "image": "images/flat/312 1f.jpg",
-    "thumbnail": "thumbs/flat/312 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 143298,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "311 1f",
     "title": "Flat 311 1f",
-    "category": "flat",
-    "image": "images/flat/311 1f.jpg",
-    "thumbnail": "thumbs/flat/311 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 123374,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "310 1f",
     "title": "Flat 310 1f",
-    "category": "flat",
-    "image": "images/flat/310 1f.jpg",
-    "thumbnail": "thumbs/flat/310 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 152865,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "309 1f",
     "title": "Flat 309 1f",
-    "category": "flat",
-    "image": "images/flat/309 1f.jpg",
-    "thumbnail": "thumbs/flat/309 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 135743,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "308 1f",
     "title": "Flat 308 1f",
-    "category": "flat",
-    "image": "images/flat/308 1f.jpg",
-    "thumbnail": "thumbs/flat/308 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 86625,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "306 1f",
     "title": "Flat 306 1f",
-    "category": "flat",
-    "image": "images/flat/306 1f.jpg",
-    "thumbnail": "thumbs/flat/306 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 106953,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "305 1f",
     "title": "Flat 305 1f",
-    "category": "flat",
-    "image": "images/flat/305 1f.jpg",
-    "thumbnail": "thumbs/flat/305 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 87358,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "304 1f",
     "title": "Flat 304 1f",
-    "category": "flat",
-    "image": "images/flat/304 1f.jpg",
-    "thumbnail": "thumbs/flat/304 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 123313,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "303 1f",
     "title": "Flat 303 1f",
-    "category": "flat",
-    "image": "images/flat/303 1f.jpg",
-    "thumbnail": "thumbs/flat/303 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 73323,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "302 1f",
     "title": "Flat 302 1f",
-    "category": "flat",
-    "image": "images/flat/302 1f.jpg",
-    "thumbnail": "thumbs/flat/302 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 71775,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "301 1f",
     "title": "Flat 301 1f",
-    "category": "flat",
-    "image": "images/flat/301 1f.jpg",
-    "thumbnail": "thumbs/flat/301 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 69919,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "3",
     "title": "Flat 3",
-    "category": "flat",
-    "image": "images/flat/3.jpg",
-    "thumbnail": "thumbs/flat/3.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 123343,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
+  },
+  {
+    "id": "298",
+    "title": "Flat 298",
+    "category": "flat"
   },
   {
     "id": "298 1f",
     "title": "Flat 298 1f",
-    "category": "flat",
-    "image": "images/flat/298 1f.jpg",
-    "thumbnail": "thumbs/flat/298 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 113093,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "297 1f",
     "title": "Flat 297 1f",
-    "category": "flat",
-    "image": "images/flat/297 1f.jpg",
-    "thumbnail": "thumbs/flat/297 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 107167,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "294 1f",
     "title": "Flat 294 1f",
-    "category": "flat",
-    "image": "images/flat/294 1f.jpg",
-    "thumbnail": "thumbs/flat/294 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 128513,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
+  },
+  {
+    "id": "292",
+    "title": "Flat 292",
+    "category": "flat"
   },
   {
     "id": "292 1f",
     "title": "Flat 292 1f",
-    "category": "flat",
-    "image": "images/flat/292 1f.jpg",
-    "thumbnail": "thumbs/flat/292 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 127011,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "291 1f",
     "title": "Flat 291 1f",
-    "category": "flat",
-    "image": "images/flat/291 1f.jpg",
-    "thumbnail": "thumbs/flat/291 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 118506,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "289 1f",
     "title": "Flat 289 1f",
-    "category": "flat",
-    "image": "images/flat/289 1f.jpg",
-    "thumbnail": "thumbs/flat/289 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 100187,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "288 1f",
     "title": "Flat 288 1f",
-    "category": "flat",
-    "image": "images/flat/288 1f.jpg",
-    "thumbnail": "thumbs/flat/288 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 73203,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "287 1f",
     "title": "Flat 287 1f",
-    "category": "flat",
-    "image": "images/flat/287 1f.jpg",
-    "thumbnail": "thumbs/flat/287 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 27580,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "286 1f",
     "title": "Flat 286 1f",
-    "category": "flat",
-    "image": "images/flat/286 1f.jpg",
-    "thumbnail": "thumbs/flat/286 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 133739,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "285 1f",
     "title": "Flat 285 1f",
-    "category": "flat",
-    "image": "images/flat/285 1f.jpg",
-    "thumbnail": "thumbs/flat/285 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 94622,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "283 1f",
     "title": "Flat 283 1f",
-    "category": "flat",
-    "image": "images/flat/283 1f.jpg",
-    "thumbnail": "thumbs/flat/283 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 115374,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "281 1f",
     "title": "Flat 281 1f",
-    "category": "flat",
-    "image": "images/flat/281 1f.jpg",
-    "thumbnail": "thumbs/flat/281 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 138753,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "280 1F",
     "title": "Flat 280 1F",
-    "category": "flat",
-    "image": "images/flat/280 1F.jpg",
-    "thumbnail": "thumbs/flat/280 1F.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 95130,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "279 1F",
     "title": "Flat 279 1F",
-    "category": "flat",
-    "image": "images/flat/279 1F.jpg",
-    "thumbnail": "thumbs/flat/279 1F.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 104780,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "276 1f",
     "title": "Flat 276 1f",
-    "category": "flat",
-    "image": "images/flat/276 1f.jpg",
-    "thumbnail": "thumbs/flat/276 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 144383,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "275 1f",
     "title": "Flat 275 1f",
-    "category": "flat",
-    "image": "images/flat/275 1f.jpg",
-    "thumbnail": "thumbs/flat/275 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 125343,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:28:33+04:30"
+    "category": "flat"
   },
   {
     "id": "274 1f",
     "title": "Flat 274 1f",
-    "category": "flat",
-    "image": "images/flat/274 1f.jpg",
-    "thumbnail": "thumbs/flat/274 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 127387,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "273 1f",
     "title": "Flat 273 1f",
-    "category": "flat",
-    "image": "images/flat/273 1f.jpg",
-    "thumbnail": "thumbs/flat/273 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 107941,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "272 1f",
     "title": "Flat 272 1f",
-    "category": "flat",
-    "image": "images/flat/272 1f.jpg",
-    "thumbnail": "thumbs/flat/272 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 124085,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "271 1f",
     "title": "Flat 271 1f",
-    "category": "flat",
-    "image": "images/flat/271 1f.jpg",
-    "thumbnail": "thumbs/flat/271 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 79157,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "270 1f",
     "title": "Flat 270 1f",
-    "category": "flat",
-    "image": "images/flat/270 1f.jpg",
-    "thumbnail": "thumbs/flat/270 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 111273,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "268 1f",
     "title": "Flat 268 1f",
-    "category": "flat",
-    "image": "images/flat/268 1f.jpg",
-    "thumbnail": "thumbs/flat/268 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 120488,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "267 1f",
     "title": "Flat 267 1f",
-    "category": "flat",
-    "image": "images/flat/267 1f.jpg",
-    "thumbnail": "thumbs/flat/267 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 125113,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "265 1f",
     "title": "Flat 265 1f",
-    "category": "flat",
-    "image": "images/flat/265 1f.jpg",
-    "thumbnail": "thumbs/flat/265 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 36118,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "264 1f",
     "title": "Flat 264 1f",
-    "category": "flat",
-    "image": "images/flat/264 1f.jpg",
-    "thumbnail": "thumbs/flat/264 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 47892,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "263 1f",
     "title": "Flat 263 1f",
-    "category": "flat",
-    "image": "images/flat/263 1f.jpg",
-    "thumbnail": "thumbs/flat/263 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 38395,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "262 1f",
     "title": "Flat 262 1f",
-    "category": "flat",
-    "image": "images/flat/262 1f.jpg",
-    "thumbnail": "thumbs/flat/262 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 53267,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "261 1f",
     "title": "Flat 261 1f",
-    "category": "flat",
-    "image": "images/flat/261 1f.jpg",
-    "thumbnail": "thumbs/flat/261 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 66629,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "260 1f",
     "title": "Flat 260 1f",
-    "category": "flat",
-    "image": "images/flat/260 1f.jpg",
-    "thumbnail": "thumbs/flat/260 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 85432,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "259 1f",
     "title": "Flat 259 1f",
-    "category": "flat",
-    "image": "images/flat/259 1f.jpg",
-    "thumbnail": "thumbs/flat/259 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 79006,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "257 1f",
     "title": "Flat 257 1f",
-    "category": "flat",
-    "image": "images/flat/257 1f.jpg",
-    "thumbnail": "thumbs/flat/257 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 95916,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "256 1f",
     "title": "Flat 256 1f",
-    "category": "flat",
-    "image": "images/flat/256 1f.jpg",
-    "thumbnail": "thumbs/flat/256 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 129845,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "255 1f",
     "title": "Flat 255 1f",
-    "category": "flat",
-    "image": "images/flat/255 1f.jpg",
-    "thumbnail": "thumbs/flat/255 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 134611,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "254 1f",
     "title": "Flat 254 1f",
-    "category": "flat",
-    "image": "images/flat/254 1f.jpg",
-    "thumbnail": "thumbs/flat/254 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 99298,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "253 1f",
     "title": "Flat 253 1f",
-    "category": "flat",
-    "image": "images/flat/253 1f.jpg",
-    "thumbnail": "thumbs/flat/253 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 104424,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "252 1f",
     "title": "Flat 252 1f",
-    "category": "flat",
-    "image": "images/flat/252 1f.jpg",
-    "thumbnail": "thumbs/flat/252 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 131829,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "251 1f",
     "title": "Flat 251 1f",
-    "category": "flat",
-    "image": "images/flat/251 1f.jpg",
-    "thumbnail": "thumbs/flat/251 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 79849,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "250 1f",
     "title": "Flat 250 1f",
-    "category": "flat",
-    "image": "images/flat/250 1f.jpg",
-    "thumbnail": "thumbs/flat/250 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 139502,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "248 1f",
     "title": "Flat 248 1f",
-    "category": "flat",
-    "image": "images/flat/248 1f.jpg",
-    "thumbnail": "thumbs/flat/248 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 122662,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "247 1f",
     "title": "Flat 247 1f",
-    "category": "flat",
-    "image": "images/flat/247 1f.jpg",
-    "thumbnail": "thumbs/flat/247 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 131962,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "245 1f",
     "title": "Flat 245 1f",
-    "category": "flat",
-    "image": "images/flat/245 1f.jpg",
-    "thumbnail": "thumbs/flat/245 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 145947,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "243 1f",
     "title": "Flat 243 1f",
-    "category": "flat",
-    "image": "images/flat/243 1f.jpg",
-    "thumbnail": "thumbs/flat/243 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 68972,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "242 1f",
     "title": "Flat 242 1f",
-    "category": "flat",
-    "image": "images/flat/242 1f.jpg",
-    "thumbnail": "thumbs/flat/242 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 92285,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "241 1f",
     "title": "Flat 241 1f",
-    "category": "flat",
-    "image": "images/flat/241 1f.jpg",
-    "thumbnail": "thumbs/flat/241 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 146160,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "238 1f",
     "title": "Flat 238 1f",
-    "category": "flat",
-    "image": "images/flat/238 1f.jpg",
-    "thumbnail": "thumbs/flat/238 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 113749,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "237 1f",
     "title": "Flat 237 1f",
-    "category": "flat",
-    "image": "images/flat/237 1f.jpg",
-    "thumbnail": "thumbs/flat/237 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 119477,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "235 1f",
     "title": "Flat 235 1f",
-    "category": "flat",
-    "image": "images/flat/235 1f.jpg",
-    "thumbnail": "thumbs/flat/235 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 89835,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "234 1f",
     "title": "Flat 234 1f",
-    "category": "flat",
-    "image": "images/flat/234 1f.jpg",
-    "thumbnail": "thumbs/flat/234 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 79705,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "233 1f",
     "title": "Flat 233 1f",
-    "category": "flat",
-    "image": "images/flat/233 1f.jpg",
-    "thumbnail": "thumbs/flat/233 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 85184,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "232 1f",
     "title": "Flat 232 1f",
-    "category": "flat",
-    "image": "images/flat/232 1f.jpg",
-    "thumbnail": "thumbs/flat/232 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 57160,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "231 1f",
     "title": "Flat 231 1f",
-    "category": "flat",
-    "image": "images/flat/231 1f.jpg",
-    "thumbnail": "thumbs/flat/231 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 81574,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "229 1f",
     "title": "Flat 229 1f",
-    "category": "flat",
-    "image": "images/flat/229 1f.jpg",
-    "thumbnail": "thumbs/flat/229 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 79787,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "228 1f",
     "title": "Flat 228 1f",
-    "category": "flat",
-    "image": "images/flat/228 1f.jpg",
-    "thumbnail": "thumbs/flat/228 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 113596,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "226 1f",
     "title": "Flat 226 1f",
-    "category": "flat",
-    "image": "images/flat/226 1f.jpg",
-    "thumbnail": "thumbs/flat/226 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 123465,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "225 1f",
     "title": "Flat 225 1f",
-    "category": "flat",
-    "image": "images/flat/225 1f.jpg",
-    "thumbnail": "thumbs/flat/225 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 38367,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "224 1f",
     "title": "Flat 224 1f",
-    "category": "flat",
-    "image": "images/flat/224 1f.jpg",
-    "thumbnail": "thumbs/flat/224 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 39136,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "223 1f",
     "title": "Flat 223 1f",
-    "category": "flat",
-    "image": "images/flat/223 1f.jpg",
-    "thumbnail": "thumbs/flat/223 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 109755,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "222 1f",
     "title": "Flat 222 1f",
-    "category": "flat",
-    "image": "images/flat/222 1f.jpg",
-    "thumbnail": "thumbs/flat/222 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 107393,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "221 1f",
     "title": "Flat 221 1f",
-    "category": "flat",
-    "image": "images/flat/221 1f.jpg",
-    "thumbnail": "thumbs/flat/221 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 150718,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "220 1f",
     "title": "Flat 220 1f",
-    "category": "flat",
-    "image": "images/flat/220 1f.jpg",
-    "thumbnail": "thumbs/flat/220 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 105986,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "219 1f",
     "title": "Flat 219 1f",
-    "category": "flat",
-    "image": "images/flat/219 1f.jpg",
-    "thumbnail": "thumbs/flat/219 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 104995,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "218 1f",
     "title": "Flat 218 1f",
-    "category": "flat",
-    "image": "images/flat/218 1f.jpg",
-    "thumbnail": "thumbs/flat/218 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 109017,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "217 1f",
     "title": "Flat 217 1f",
-    "category": "flat",
-    "image": "images/flat/217 1f.jpg",
-    "thumbnail": "thumbs/flat/217 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 91131,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "216 1f",
     "title": "Flat 216 1f",
-    "category": "flat",
-    "image": "images/flat/216 1f.jpg",
-    "thumbnail": "thumbs/flat/216 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 85640,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "215 1f",
     "title": "Flat 215 1f",
-    "category": "flat",
-    "image": "images/flat/215 1f.jpg",
-    "thumbnail": "thumbs/flat/215 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 89623,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "213 1f",
     "title": "Flat 213 1f",
-    "category": "flat",
-    "image": "images/flat/213 1f.jpg",
-    "thumbnail": "thumbs/flat/213 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 93347,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "212 1f",
     "title": "Flat 212 1f",
-    "category": "flat",
-    "image": "images/flat/212 1f.jpg",
-    "thumbnail": "thumbs/flat/212 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 138306,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "210 1f",
     "title": "Flat 210 1f",
-    "category": "flat",
-    "image": "images/flat/210 1f.jpg",
-    "thumbnail": "thumbs/flat/210 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 117257,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "209 1f",
     "title": "Flat 209 1f",
-    "category": "flat",
-    "image": "images/flat/209 1f.jpg",
-    "thumbnail": "thumbs/flat/209 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 86434,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "208 1f",
     "title": "Flat 208 1f",
-    "category": "flat",
-    "image": "images/flat/208 1f.jpg",
-    "thumbnail": "thumbs/flat/208 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 93209,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "207 1f",
     "title": "Flat 207 1f",
-    "category": "flat",
-    "image": "images/flat/207 1f.jpg",
-    "thumbnail": "thumbs/flat/207 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 132348,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "206 1f",
     "title": "Flat 206 1f",
-    "category": "flat",
-    "image": "images/flat/206 1f.jpg",
-    "thumbnail": "thumbs/flat/206 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 90477,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "205 1f",
     "title": "Flat 205 1f",
-    "category": "flat",
-    "image": "images/flat/205 1f.jpg",
-    "thumbnail": "thumbs/flat/205 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 84260,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "204 1f",
     "title": "Flat 204 1f",
-    "category": "flat",
-    "image": "images/flat/204 1f.jpg",
-    "thumbnail": "thumbs/flat/204 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 118112,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "203 1f",
     "title": "Flat 203 1f",
-    "category": "flat",
-    "image": "images/flat/203 1f.jpg",
-    "thumbnail": "thumbs/flat/203 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 114709,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "201 1f",
     "title": "Flat 201 1f",
-    "category": "flat",
-    "image": "images/flat/201 1f.jpg",
-    "thumbnail": "thumbs/flat/201 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 128485,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "200 1f",
     "title": "Flat 200 1f",
-    "category": "flat",
-    "image": "images/flat/200 1f.jpg",
-    "thumbnail": "thumbs/flat/200 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 41125,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "199 1f",
     "title": "Flat 199 1f",
-    "category": "flat",
-    "image": "images/flat/199 1f.jpg",
-    "thumbnail": "thumbs/flat/199 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 127064,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "198 1f",
     "title": "Flat 198 1f",
-    "category": "flat",
-    "image": "images/flat/198 1f.jpg",
-    "thumbnail": "thumbs/flat/198 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 109445,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "197 1f",
     "title": "Flat 197 1f",
-    "category": "flat",
-    "image": "images/flat/197 1f.jpg",
-    "thumbnail": "thumbs/flat/197 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 108890,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "196 1f",
     "title": "Flat 196 1f",
-    "category": "flat",
-    "image": "images/flat/196 1f.jpg",
-    "thumbnail": "thumbs/flat/196 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 119300,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "195 1f",
     "title": "Flat 195 1f",
-    "category": "flat",
-    "image": "images/flat/195 1f.jpg",
-    "thumbnail": "thumbs/flat/195 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 132707,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "194 1f",
     "title": "Flat 194 1f",
-    "category": "flat",
-    "image": "images/flat/194 1f.jpg",
-    "thumbnail": "thumbs/flat/194 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 73516,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "193 1f",
     "title": "Flat 193 1f",
-    "category": "flat",
-    "image": "images/flat/193 1f.jpg",
-    "thumbnail": "thumbs/flat/193 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 87061,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "192 1f",
     "title": "Flat 192 1f",
-    "category": "flat",
-    "image": "images/flat/192 1f.jpg",
-    "thumbnail": "thumbs/flat/192 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 103699,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "191 1f",
     "title": "Flat 191 1f",
-    "category": "flat",
-    "image": "images/flat/191 1f.jpg",
-    "thumbnail": "thumbs/flat/191 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 101100,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "190 1f",
     "title": "Flat 190 1f",
-    "category": "flat",
-    "image": "images/flat/190 1f.jpg",
-    "thumbnail": "thumbs/flat/190 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 121488,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "189 1f",
     "title": "Flat 189 1f",
-    "category": "flat",
-    "image": "images/flat/189 1f.jpg",
-    "thumbnail": "thumbs/flat/189 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 102715,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "187 1f",
     "title": "Flat 187 1f",
-    "category": "flat",
-    "image": "images/flat/187 1f.jpg",
-    "thumbnail": "thumbs/flat/187 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 78178,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "185 1f",
     "title": "Flat 185 1f",
-    "category": "flat",
-    "image": "images/flat/185 1f.jpg",
-    "thumbnail": "thumbs/flat/185 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 117557,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "184 1f",
     "title": "Flat 184 1f",
-    "category": "flat",
-    "image": "images/flat/184 1f.jpg",
-    "thumbnail": "thumbs/flat/184 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 113273,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "183 1f",
     "title": "Flat 183 1f",
-    "category": "flat",
-    "image": "images/flat/183 1f.jpg",
-    "thumbnail": "thumbs/flat/183 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 81837,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "180 1f",
     "title": "Flat 180 1f",
-    "category": "flat",
-    "image": "images/flat/180 1f.jpg",
-    "thumbnail": "thumbs/flat/180 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 45577,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "179 1f",
     "title": "Flat 179 1f",
-    "category": "flat",
-    "image": "images/flat/179 1f.jpg",
-    "thumbnail": "thumbs/flat/179 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 96419,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "178 1f",
     "title": "Flat 178 1f",
-    "category": "flat",
-    "image": "images/flat/178 1f.jpg",
-    "thumbnail": "thumbs/flat/178 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 105977,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "177 1f",
     "title": "Flat 177 1f",
-    "category": "flat",
-    "image": "images/flat/177 1f.jpg",
-    "thumbnail": "thumbs/flat/177 1f.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 129818,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "175",
     "title": "Flat 175",
-    "category": "flat",
-    "image": "images/flat/175.jpg",
-    "thumbnail": "thumbs/flat/175.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 39505,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "174",
     "title": "Flat 174",
-    "category": "flat",
-    "image": "images/flat/174.jpg",
-    "thumbnail": "thumbs/flat/174.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 114594,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "173",
     "title": "Flat 173",
-    "category": "flat",
-    "image": "images/flat/173.jpg",
-    "thumbnail": "thumbs/flat/173.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 92003,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "171",
     "title": "Flat 171",
-    "category": "flat",
-    "image": "images/flat/171.jpg",
-    "thumbnail": "thumbs/flat/171.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 92260,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "170",
     "title": "Flat 170",
-    "category": "flat",
-    "image": "images/flat/170.jpg",
-    "thumbnail": "thumbs/flat/170.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 129569,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "14",
     "title": "Flat 14",
-    "category": "flat",
-    "image": "images/flat/14.jpg",
-    "thumbnail": "thumbs/flat/14.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 116893,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "13",
     "title": "Flat 13",
-    "category": "flat",
-    "image": "images/flat/13.jpg",
-    "thumbnail": "thumbs/flat/13.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 127437,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "125",
     "title": "Flat 125",
-    "category": "flat",
-    "image": "images/flat/125.jpg",
-    "thumbnail": "thumbs/flat/125.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 145037,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "12",
     "title": "Flat 12",
-    "category": "flat",
-    "image": "images/flat/12.jpg",
-    "thumbnail": "thumbs/flat/12.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 131428,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   },
   {
     "id": "1",
     "title": "Flat 1",
-    "category": "flat",
-    "image": "images/flat/1.jpg",
-    "thumbnail": "thumbs/flat/1.webp",
-    "width": 400,
-    "height": 400,
-    "aspectRatio": 1,
-    "fileSize": 95047,
-    "format": "jpeg",
-    "createdAt": "2026-06-21T11:22:39+04:30"
+    "category": "flat"
   }
 ]
