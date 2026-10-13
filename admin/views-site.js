@@ -115,4 +115,4 @@ views.analytics = async () => {
 };
 
 // ---------- Activity ----------
-views.activity = async () => { const r = await api("GET", "/api/admin/audit"); return [pageHead(t("activity"), t("audit")), h("div", { class: "card" }, auditTable(r.entries))]; };
+views.activity = async () => { const r = await api("GET", "/api/admin/analytics?view=audit"); return [pageHead(t("activity"), t("audit")), h("div", { class: "card" }, auditTable(r.entries))]; };

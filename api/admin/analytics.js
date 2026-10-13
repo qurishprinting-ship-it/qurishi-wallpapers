@@ -1,5 +1,5 @@
 'use strict';
-const { route, send } = require('../_lib/http');
+const { route, send, query } = require('../_lib/http');
 const auth = require('../_lib/auth');
 const store = require('../_lib/store');
 const { dayKey } = require('../_lib/analytics');
@@ -9,6 +9,12 @@ const top = (obj, n = 10) => Object.entries(obj).sort((a, b) => b[1] - a[1]).sli
 
 module.exports = route(['GET'], async (req, res) => {
   await auth.requireAdmin(req);
+  // GET /api/admin/analytics?view=audit  -> admin audit log (was the separate /api/admin/audit function;
+  // merged so the project stays within Vercel Hobby's 12-function limit).
+  if (query(req).view === 'audit') {
+    const [rows] = await store.pipeline([['LRANGE', 'audit', 0, 99]]);
+    return send(res, 200, { entries: (rows || []).map((x) => { try { return JSON.parse(x); } catch { return null; } }).filter(Boolean) });
+  }
   const days = Array.from({ length: DAYS }, (_, i) => dayKey(i));
   const cmds = [
     ['HGETALL', 'stats:total'], ['PFCOUNT', 'uv:all'], ['HGETALL', 'wp:views'], ['HGETALL', 'wp:wa'],

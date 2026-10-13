@@ -11,7 +11,7 @@ const rankMap = () => Object.fromEntries(S.cats.map((c) => [c.slug, c.order]));
 
 // ---------- Overview ----------
 views.overview = async () => {
-  await Promise.all([loadItems(), loadCats(), loadAnalytics(), api("GET", "/api/admin/audit").then((r) => { S.audit = r.entries; })]);
+  await Promise.all([loadItems(), loadCats(), loadAnalytics(), api("GET", "/api/admin/analytics?view=audit").then((r) => { S.audit = r.entries; })]);
   const a = S.analytics, featured = S.items.filter((i) => i.featured === true).length, missing = S.items.filter((i) => !i.width).length;
   const recent = [...S.items].filter((i) => i.createdAt).sort((x, y) => y.createdAt.localeCompare(x.createdAt)).slice(0, 6);
   const maxN = Math.max(1, ...S.cats.map((c) => c.count));
