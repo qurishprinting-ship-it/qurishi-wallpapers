@@ -14,7 +14,7 @@ Do NOT replace your whole repo: your real `images/`, `thumbs/` and `assets/logo.
 ## Modified files
 - Public site: `index.html`, `script.js`, `style.css`, `translations.js`
 - Admin UI (redesigned): `admin/index.html`, `admin/admin.css`, `admin/admin.js`
-- API: `api/_lib/{config,auth,gallery,github,store}.js`, `api/admin/{wallpapers,bulk,upload,me,analytics,audit,logout}.js`, `api/track.js`
+- API: `api/_lib/{config,auth,gallery,github,store}.js`, `api/admin/{wallpapers,bulk,upload,me,analytics,logout}.js (audit log is now served by analytics.js?view=audit)`, `api/track.js`
 - `scripts/sync_data.py` (dynamic categories), `test/{unit,e2e-harness}.test|js`, `.env.example`, `README.md`
 
 ## Unchanged
