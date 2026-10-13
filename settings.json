@@ -1,7 +1,7 @@
 {
   "version": 1,
   "theme": {
-    "primary": "#121efb"
+    "primary": "#0ea5e9"
   },
   "categories": [
     {
@@ -40,5 +40,6 @@
       "enabled": true,
       "builtin": true
     }
-  ]
+  ],
+  "updatedAt": "2026-10-13T09:36:14.054Z"
 }
