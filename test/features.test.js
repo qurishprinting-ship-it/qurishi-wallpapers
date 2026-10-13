@@ -238,3 +238,33 @@ test('track accepts designs with spaces and new categories, rejects unknown ones
   assert.equal((await call(T2, { method: 'POST', body: { type: 'view', id: '1', category: 'gold' } })).status, 204);
   assert.equal((await call(T2, { method: 'POST', body: { type: 'view', id: '1', category: 'hack' } })).status, 400);
 });
+
+// ---------- Vercel Hobby plan: at most 12 serverless functions ----------
+test('deployable serverless functions stay within the Hobby limit (12)', () => {
+  const fs = require('fs');
+  const root = path.join(__dirname, '..', 'api');
+  const fns = [];
+  const walk = (dir, rel) => {
+    for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+      if (e.name.startsWith('_') || e.name.startsWith('.')) continue; // Vercel ignores _-prefixed files/folders (helpers)
+      if (e.isDirectory()) walk(path.join(dir, e.name), rel + e.name + '/');
+      else if (/\.(js|mjs|cjs|ts)$/.test(e.name)) fns.push(rel + e.name);
+    }
+  };
+  walk(root, '');
+  assert.ok(fns.length <= 12, `${fns.length} functions: ${fns.join(', ')}`);
+  assert.ok(!fns.includes('admin/audit.js'), 'audit is served by analytics.js?view=audit');
+});
+
+test('merged route: analytics?view=audit returns the audit log, plain analytics still returns stats; both need login', async () => {
+  const A = H('admin/analytics.js');
+  assert.equal((await call(A, { url: '/api/admin/analytics?view=audit' })).status, 401);
+  assert.equal((await call(A, { url: '/api/admin/analytics' })).status, 401);
+  await post('settings', { primary: '#e91e63' }, 'PUT'); // writes an audit entry
+  const audit = await call(A, { url: '/api/admin/analytics?view=audit', headers: { cookie } });
+  assert.equal(audit.status, 200); assert.ok(Array.isArray(audit.json.entries)); assert.equal(audit.json.entries[0].action, 'theme');
+  assert.equal(audit.json.totals, undefined);
+  const stats = await call(A, { url: '/api/admin/analytics', headers: { cookie } });
+  assert.equal(stats.status, 200); assert.ok(stats.json.totals && stats.json.daily.length === 30); assert.equal(stats.json.entries, undefined);
+  assert.equal((await call(A, { method: 'POST', url: '/api/admin/analytics?view=audit', ...authed(), body: {} })).status, 405);
+});

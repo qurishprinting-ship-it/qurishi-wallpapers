@@ -60,7 +60,7 @@ test('session tokens: tamper and expiry rejected', () => {
 });
 
 test('every admin endpoint refuses unauthenticated requests', async () => {
-  for (const [f, method] of [['me', 'GET'], ['wallpapers', 'GET'], ['wallpapers', 'PATCH'], ['bulk', 'POST'], ['upload', 'POST'], ['analytics', 'GET'], ['audit', 'GET'], ['logout', 'POST']]) {
+  for (const [f, method] of [['me', 'GET'], ['wallpapers', 'GET'], ['wallpapers', 'PATCH'], ['bulk', 'POST'], ['upload', 'POST'], ['analytics', 'GET'], ['logout', 'POST']]) {
     const r = await call(H(`admin/${f}.js`), { method, url: '/x?category=wall', body: method === 'GET' ? undefined : '{}' });
     assert.equal(r.status, 401, `${f} ${method}`);
   }
@@ -245,6 +245,6 @@ test('track: counts visits/views/whatsapp; analytics is admin-only; bad input re
 
 test('audit log records admin actions', async () => {
   await call(H('admin/wallpapers.js'), { method: 'PATCH', ...authed(), body: { key: 'wall/002', title: 'Audit me' } });
-  const r = await call(H('admin/audit.js'), { headers: { cookie } });
+  const r = await call(H('admin/analytics.js'), { url: '/api/admin/analytics?view=audit', headers: { cookie } });
   assert.equal(r.json.entries[0].action, 'edit');
 });
