@@ -1,7 +1,7 @@
 {
   "version": 1,
   "theme": {
-    "primary": "#0ea5e9"
+    "primary": "#7c3aed"
   },
   "categories": [
     {
@@ -41,5 +41,5 @@
       "builtin": true
     }
   ],
-  "updatedAt": "2026-10-13T09:36:14.054Z"
+  "updatedAt": "2026-11-09T09:29:28.781Z"
 }
